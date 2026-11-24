@@ -133,3 +133,6 @@ name = "Cyclo7EulerProduct"
 
 [[lean_lib]]
 name = "Cyclo7Characters"
+
+[[lean_lib]]
+name = "Cyclo7Galois"
