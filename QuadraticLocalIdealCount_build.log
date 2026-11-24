@@ -1,0 +1,9 @@
+QuadraticLocalIdealCount build log — 2026-11-24T14:42Z
+Toolchain: leanprover/lean4:v4.37.0-rc1; Mathlib commit: bce3fc3a37ff1790b2e3b0ccf8f941053aefde19
+Imports Mathlib only (no Gaussian/Eisenstein files, no characters, no L-functions). Branch eisenstein-extension from baseline 9c55a1e.
+sha256: 14b9ee91a2beeaa6aac9fa5d4831f34d51cd73d465c0b9a3903f0480bf51f37d
+
+'LocalCount.card_ideals_norm_prime_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LocalCount.card_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LocalCount.card_inert' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LocalCount.card_ramified' depends on axioms: [propext, Classical.choice, Quot.sound]
