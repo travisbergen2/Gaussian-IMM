@@ -1,0 +1,26 @@
+GaussianEulerAlgebraic build log — 2026-11-24T14:16Z
+Toolchain: leanprover/lean4:v4.37.0-rc1; Mathlib commit: bce3fc3a37ff1790b2e3b0ccf8f941053aefde19
+Imports GaussianEulerProduct (branch norm-obstruction). Baseline 9c55a1e unchanged. Additive; not part of SHA256SUMS / verify.sh.
+sha256: 99c7a2ed6a39faaec84f17d82f3ab3981f8b36e208af78a0d64ae637176ccd37
+
+CONTROL OK: ideal_count_eulerProduct reaches GaussianSynthesis.A_eq_R (divisor-sum route)
+INDEPENDENT: ideal_count_eulerProduct_algebraic reaches none of [GaussianSynthesis.A_eq_R,
+ GaussianSynthesis.a_eq_r,
+ GaussianSynthesis.a_eq_divisor_sum,
+ GaussianSynthesis.LSeries_ideal_count,
+ GaussianLSeries.LSeries_r,
+ GaussianLSeries.r_eq_divisor_sum,
+ ideal_count_eulerProduct,
+ dedekindZeta_Qi]
+INDEPENDENT: ideal_count_eq_zeta_mul_L_independent reaches none of [GaussianSynthesis.A_eq_R,
+ GaussianSynthesis.a_eq_r,
+ GaussianSynthesis.a_eq_divisor_sum,
+ GaussianSynthesis.LSeries_ideal_count,
+ GaussianLSeries.LSeries_r,
+ GaussianLSeries.r_eq_divisor_sum,
+ ideal_count_eulerProduct,
+ dedekindZeta_Qi]
+'a_le_sigma0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LSeriesSummable_ideal_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ideal_count_eulerProduct_algebraic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ideal_count_eq_zeta_mul_L_independent' depends on axioms: [propext, Classical.choice, Quot.sound]

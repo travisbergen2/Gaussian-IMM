@@ -46,3 +46,6 @@ name = "GaussianNormObstruction"
 
 [[lean_lib]]
 name = "GaussianEulerProduct"
+
+[[lean_lib]]
+name = "GaussianEulerAlgebraic"
