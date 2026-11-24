@@ -64,3 +64,6 @@ name = "QuadraticDivisorBound"
 
 [[lean_lib]]
 name = "QuadraticLocalEulerFactor"
+
+[[lean_lib]]
+name = "QuadraticEulerProduct"
