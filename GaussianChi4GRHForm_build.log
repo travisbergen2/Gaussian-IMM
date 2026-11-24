@@ -1,0 +1,13 @@
+GaussianChi4GRHForm build log — 2026-11-24T11:22Z
+Toolchain: leanprover/lean4:v4.37.0-rc1; Mathlib commit: bce3fc3a37ff1790b2e3b0ccf8f941053aefde19
+Imports GaussianDedekindRH (registered as lean_lib). Uses Mathlib's completedLFunction / gammaFactor / rootNumber / IsPrimitive.completedLFunction_one_sub.
+sha256: 1792bbae9f61b8264919baf020ef796e657d59a56c563f5721ebe6cf5ec8ba1e
+
+'chi4C_isPrimitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'completed_ne_zero_of_re_nonpos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LFunction_chi4_zero_iff_of_re_nonpos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'chi4ZeroLine_iff_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'chi4C_not_factorsThrough_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'gammaFactor_inv_ne_zero_of_one_le_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+'completed_inv_ne_zero_of_one_le_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+'nontrivialZero_re_half_of_RH_strip' depends on axioms: [propext, Classical.choice, Quot.sound]

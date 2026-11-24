@@ -1,0 +1,12 @@
+GaussianDedekindZeros build log — 2026-11-24T11:00Z
+Toolchain: leanprover/lean4:v4.37.0-rc1; Mathlib commit: bce3fc3a37ff1790b2e3b0ccf8f941053aefde19
+Imports GaussianDedekindContinuation (registered as lean_lib).
+sha256: 888f1f6de9a935a4593492fb42eb2e9e963fe83a6fdc07c812fa8bf01506399a
+
+'dedekindZetaCont_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'dedekindZetaCont_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'chi4C_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'trivial_is_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'trivial_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'nontrivialZero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LFunction_chi4_one_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

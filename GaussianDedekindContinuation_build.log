@@ -1,0 +1,10 @@
+GaussianDedekindContinuation build log — 2026-11-24T10:39Z
+Toolchain: leanprover/lean4:v4.37.0-rc1; Mathlib commit: bce3fc3a37ff1790b2e3b0ccf8f941053aefde19
+Imports GaussianDedekindBridge (registered as lean_lib) and through it the frozen layer.
+sha256: 698360de018380b5b1d8e198ed0805863cf56e6c8b0a1b4155fe5834969bc32b
+
+'dedekindZetaCont_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LFunction_chi4_differentiable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'dedekindZetaCont_differentiableAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'chi4C_ne_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LFunction_chi4_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

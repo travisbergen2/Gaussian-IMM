@@ -1,0 +1,11 @@
+GaussianDedekindBridge build log — 2026-11-24T10:26Z
+Toolchain: leanprover/lean4:v4.37.0-rc1; Mathlib commit: bce3fc3a37ff1790b2e3b0ccf8f941053aefde19
+Imports the frozen layer (GaussianSynthesis → GaussianLSeries, GaussianIdealCounting), registered as lean_lib.
+sha256: 22559a3dcfc56cdb31c5538941cc7f77fbc649fd13c478ba0f6e3bdcc9051177
+
+'gaussian_discr_fundamental' depends on axioms: [propext, Classical.choice, Quot.sound]
+'gaussianIntegralClosureEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ringOfIntegersEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'absNorm_comap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'card_ideals_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'dedekindZeta_Qi' depends on axioms: [propext, Classical.choice, Quot.sound]

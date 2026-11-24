@@ -1,0 +1,8 @@
+GaussianDedekindRH build log — 2026-11-24T11:07Z
+Toolchain: leanprover/lean4:v4.37.0-rc1; Mathlib commit: bce3fc3a37ff1790b2e3b0ccf8f941053aefde19
+Imports GaussianDedekindZeros (registered as lean_lib). CONDITIONAL: RH/GRH enter only as hypotheses.
+sha256: db40bf65ab9cfa93ca7f583b5b2ffee5cefc6e4a482cb437a4b61cd879fcd488
+
+'zetaZeroLine_iff_RH' depends on axioms: [propext, Classical.choice, Quot.sound]
+'nontrivialZero_re_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'nontrivialZero_re_half_of_RH' depends on axioms: [propext, Classical.choice, Quot.sound]

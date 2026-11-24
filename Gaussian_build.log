@@ -1,0 +1,38 @@
+Gaussian layer build log — 2026-11-24T10:15Z
+Toolchain: leanprover/lean4:v4.37.0-rc1
+Mathlib commit: bce3fc3a37ff1790b2e3b0ccf8f941053aefde19
+
+=== GaussianLSeries.lean (sha256 c5cad82a8f0d6f3e…) ===
+'GaussianLSeries.LSeries_r' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GaussianLSeries.r_eq_divisor_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+=== GaussianIdealCounting.lean (sha256 6022250b91ecf993…) ===
+'algebraNorm_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'absNorm_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'a_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'a_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'absNorm_is_sum_two_squares' depends on axioms: [propext, Classical.choice, Quot.sound]
+'two_ramifies' depends on axioms: [propext, Classical.choice, Quot.sound]
+'inert_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'split_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'split_factors_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'inert_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ramified_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ideal_norm_prime_power_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'dvd_two_prime_pows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'split_ideal_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'a_split_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ideal_dvd_span_absNorm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'exps_unique_aux' depends on axioms: [propext, Classical.choice, Quot.sound]
+'exps_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'dvd_one_prime_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'a_inert_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'a_ramified_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'span_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'factor_recover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'a_mul_of_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+=== GaussianSynthesis.lean (sha256 3d0993b892b5df3a…) ===
+'GaussianSynthesis.A_eq_R' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GaussianSynthesis.a_eq_r' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GaussianSynthesis.LSeries_ideal_count' depends on axioms: [propext, Classical.choice, Quot.sound]

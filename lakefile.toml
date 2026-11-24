@@ -1,0 +1,41 @@
+# Lake configuration for the Gaussian layer (lean/gaussian/).
+# Put this file, verify.sh, SHA256SUMS and the nine .lean files in one folder.
+#
+# PIN MATHLIB HERE: set `rev` to the Mathlib commit that matches your lean-toolchain.
+# The cloud build used commit bce3fc3a37ff1790b2e3b0ccf8f941053aefde19 with v4.37.0-rc1.
+# For a 4.36.0-rc1 rebuild, replace it with your pinned Mathlib revision.
+
+name = "gaussian"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "bce3fc3a37ff1790b2e3b0ccf8f941053aefde19"
+
+# The nine files, in dependency order.
+[[lean_lib]]
+name = "GaussianGEquivalence_RingEquiv"
+
+[[lean_lib]]
+name = "GaussianIdealCounting"
+
+[[lean_lib]]
+name = "GaussianLSeries"
+
+[[lean_lib]]
+name = "GaussianSynthesis"
+
+[[lean_lib]]
+name = "GaussianDedekindBridge"
+
+[[lean_lib]]
+name = "GaussianDedekindContinuation"
+
+[[lean_lib]]
+name = "GaussianDedekindZeros"
+
+[[lean_lib]]
+name = "GaussianDedekindRH"
+
+[[lean_lib]]
+name = "GaussianChi4GRHForm"
