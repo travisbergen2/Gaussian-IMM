@@ -49,3 +49,6 @@ name = "GaussianLocalInstance"
 
 [[lean_lib]]
 name = "EisensteinCharacter"
+
+[[lean_lib]]
+name = "EisensteinLocalInstance"

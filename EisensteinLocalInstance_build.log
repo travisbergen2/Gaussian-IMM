@@ -1,0 +1,9 @@
+EisensteinLocalInstance build log — 2026-11-24T15:01Z
+Toolchain: leanprover/lean4:v4.37.0-rc1; Mathlib commit: bce3fc3a37ff1790b2e3b0ccf8f941053aefde19
+Imports QuadraticLocalIdealCount + EisensteinCharacter + Mathlib only (nothing Gaussian). Branch eisenstein-extension.
+sha256: 55f8052621e8825df0decc121c8492cebde0d91872450afc2de6ad9f90fdd7e3
+
+'eis_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'eis_inert' depends on axioms: [propext, Classical.choice, Quot.sound]
+'eis_ramified' depends on axioms: [propext, Classical.choice, Quot.sound]
+'chi3_eq_neg_one_pow_inertiaDeg' depends on axioms: [propext, Classical.choice, Quot.sound]
