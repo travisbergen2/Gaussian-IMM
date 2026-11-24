@@ -85,3 +85,6 @@ name = "Q5Character"
 
 [[lean_lib]]
 name = "Q5Splitting"
+
+[[lean_lib]]
+name = "Q5EulerProduct"
