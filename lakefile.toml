@@ -103,3 +103,6 @@ name = "WeightedLocalIdealCount"
 
 [[lean_lib]]
 name = "DedekindSummable"
+
+[[lean_lib]]
+name = "GaloisLocalEulerFactor"
