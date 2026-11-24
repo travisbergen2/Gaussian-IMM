@@ -1,0 +1,3 @@
+'Cyclo7.local_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Cyclo7.hloc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Cyclo7.LSeries_A_eq_zeta_mul_L5' depends on axioms: [propext, Classical.choice, Quot.sound]
