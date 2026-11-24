@@ -97,3 +97,6 @@ name = "Q5Boundary"
 
 [[lean_lib]]
 name = "LocalCountBinomial"
+
+[[lean_lib]]
+name = "WeightedLocalIdealCount"

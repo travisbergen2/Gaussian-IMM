@@ -1,0 +1,2 @@
+  Multiset.count_singleton
+'WeightedCount.card_ideals_norm_prime_pow_weighted' depends on axioms: [propext, Classical.choice, Quot.sound]
