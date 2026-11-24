@@ -70,3 +70,6 @@ name = "QuadraticEulerProduct"
 
 [[lean_lib]]
 name = "EisensteinEulerProduct"
+
+[[lean_lib]]
+name = "QuadraticGalois"

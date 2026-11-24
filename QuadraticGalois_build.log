@@ -1,0 +1,1 @@
+'isGalois_of_finrank_eq_two' depends on axioms: [propext, Classical.choice, Quot.sound]
