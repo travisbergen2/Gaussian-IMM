@@ -1,0 +1,41 @@
+# Cloud run, NOT the user's machine. Branch eisenstein-extension @ c78ed80, unmodified sources.
+# Local-only changes: lean-toolchain = leanprover/lean4:v4.36.0-rc1, lakefile Mathlib rev = 625d8914199bc567cca9b91f90e8e5afafa5ae51 (Mathlib tag v4.36.0-rc1)
+# Lean (version 4.36.0-rc1, commit c9afcddf514a6772bd4d649f7cfc04eff0b9f15e)
+# Result: lake build of all 21 libraries FAILED. Errors only:
+✖ Building DedekindIdealCountMultiplicative (37s)
+error: DedekindIdealCountMultiplicative.lean:27:60: failed to synthesize instance of type class
+error: DedekindIdealCountMultiplicative.lean:33:44: typeclass instance problem is stuck
+error: DedekindIdealCountMultiplicative.lean:38:44: typeclass instance problem is stuck
+error: DedekindIdealCountMultiplicative.lean:43:4: failed to synthesize instance of type class
+error: DedekindIdealCountMultiplicative.lean:49:54: failed to synthesize instance of type class
+error: DedekindIdealCountMultiplicative.lean:51:53: failed to synthesize instance of type class
+error: DedekindIdealCountMultiplicative.lean:67:10: failed to synthesize instance of type class
+error: DedekindIdealCountMultiplicative.lean:67:31: failed to synthesize instance of type class
+error: DedekindIdealCountMultiplicative.lean:80:53: failed to synthesize instance of type class
+error: DedekindIdealCountMultiplicative.lean:81:66: failed to synthesize instance of type class
+error: DedekindIdealCountMultiplicative.lean:86:26: failed to synthesize instance of type class
+error: DedekindIdealCountMultiplicative.lean:86:59: failed to synthesize instance of type class
+error: DedekindIdealCountMultiplicative.lean:87:22: failed to synthesize instance of type class
+error: DedekindIdealCountMultiplicative.lean:94:12: Invalid rewrite argument: The pattern to be substituted is a metavariable (`?m.174`) in this equality
+error: DedekindIdealCountMultiplicative.lean:96:12: Invalid rewrite argument: The pattern to be substituted is a metavariable (`?m.188`) in this equality
+error: DedekindIdealCountMultiplicative.lean:105:17: failed to synthesize instance of type class
+error: DedekindIdealCountMultiplicative.lean:106:24: failed to synthesize instance of type class
+error: DedekindIdealCountMultiplicative.lean:107:17: failed to synthesize instance of type class
+error: DedekindIdealCountMultiplicative.lean:108:24: failed to synthesize instance of type class
+error: DedekindIdealCountMultiplicative.lean:109:19: failed to synthesize instance of type class
+error: DedekindIdealCountMultiplicative.lean:109:31: failed to synthesize instance of type class
+error: DedekindIdealCountMultiplicative.lean:110:16: failed to synthesize instance of type class
+error: DedekindIdealCountMultiplicative.lean:113:16: failed to synthesize instance of type class
+error: DedekindIdealCountMultiplicative.lean:118:16: failed to synthesize instance of type class
+error: DedekindIdealCountMultiplicative.lean:119:16: failed to synthesize instance of type class
+error: DedekindIdealCountMultiplicative.lean:85:35: unsolved goals
+✖ Building QuadraticLocalIdealCount (29s)
+error: QuadraticLocalIdealCount.lean:61:46: failed to synthesize instance of type class
+error: QuadraticLocalIdealCount.lean:62:4: failed to synthesize instance of type class
+error: QuadraticLocalIdealCount.lean:63:6: Failed to rewrite using equation theorems for `build`
+error: QuadraticLocalIdealCount.lean:71:18: failed to synthesize instance of type class
+error: QuadraticLocalIdealCount.lean:72:29: failed to synthesize instance of type class
+error: QuadraticLocalIdealCount.lean:92:12: failed to synthesize instance of type class
+✖ Building GaussianDedekindBridge (17s)
+error: GaussianDedekindBridge.lean:28:2: Unknown constant `QuadraticAlgebra.Int.algEquivIntegralClosure`
+error: build failed

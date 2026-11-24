@@ -1,0 +1,874 @@
+# Cloud run, NOT the user's machine. Branch eisenstein-extension @ c78ed80, unmodified sources.
+# Local-only changes: lean-toolchain = leanprover/lean4:v4.36.0, lakefile Mathlib rev = fc4f59e577feb1a4956671bc04ac18aaaf8cd842 (Mathlib tag v4.36.0)
+# lake build of all 21 libraries: exit 0. Branch axiom audit: 34 lines, all [propext, Classical.choice, Quot.sound].
+# verify.sh output follows:
+Gaussian layer verification — 2026-11-24T19:27Z
+lean-toolchain: leanprover/lean4:v4.36.0
+lean --version: Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)
+Mathlib commit: fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+
+=== STAGE 1: HASHES ===
+GaussianGEquivalence_RingEquiv.lean: OK
+GaussianIdealCounting.lean: OK
+GaussianLSeries.lean: OK
+GaussianSynthesis.lean: OK
+GaussianDedekindBridge.lean: OK
+GaussianDedekindContinuation.lean: OK
+GaussianDedekindZeros.lean: OK
+GaussianDedekindRH.lean: OK
+GaussianChi4GRHForm.lean: OK
+STAGE 1 PASSED: all 9 files match the reference manifest.
+
+=== STAGE 2: BUILD ===
+Current branch: HEAD
+Using cache from origin: (some leanprover-community/mathlib4)
+No files to download
+Already decompressed 9117 file(s)
+--- building GaussianGEquivalence_RingEquiv
+⚠ [6380/6382] Replayed GaussianGEquivalence_RingEquiv
+warning: GaussianGEquivalence_RingEquiv.lean: imports `Mathlib.NumberTheory.SumTwoSquares` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianGEquivalence_RingEquiv.lean: imports `Mathlib.Algebra.Ring.MinimalAxioms` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianGEquivalence_RingEquiv.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianGEquivalence_RingEquiv.lean:75:22: This simp argument is unused:
+  G.mk_add_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GaussianGEquivalence_RingEquiv.lean:80:22: This simp argument is unused:
+  G.mk_add_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GaussianGEquivalence_RingEquiv.lean:89:39: This simp argument is unused:
+  G.mk_add_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [G.mk_mul_mk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GaussianGEquivalence_RingEquiv.lean:101:22: This simp argument is unused:
+  G.mk_mul_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GaussianGEquivalence_RingEquiv.lean:156:50: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianGEquivalence_RingEquiv.lean:156:50: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: GaussianGEquivalence_RingEquiv.lean:266:33: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianGEquivalence_RingEquiv.lean:266:33: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: GaussianGEquivalence_RingEquiv.lean:267:0: 'G.ringEquivGaussianInt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianGEquivalence_RingEquiv.lean:268:0: 'G.rotate360_eq_self' depends on axioms: [propext]
+info: GaussianGEquivalence_RingEquiv.lean:269:0: 'G.norm_rotate90' depends on axioms: [propext]
+⚠ [6381/6382] Ran GaussianGEquivalence_RingEquiv:irArts
+warning: GaussianGEquivalence_RingEquiv.lean: imports `Mathlib.NumberTheory.SumTwoSquares` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianGEquivalence_RingEquiv.lean: imports `Mathlib.Algebra.Ring.MinimalAxioms` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianGEquivalence_RingEquiv.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (6382 jobs).
+--- building GaussianIdealCounting
+⚠ [18250/18252] Replayed GaussianIdealCounting
+warning: GaussianIdealCounting.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianIdealCounting.lean:36:89: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: GaussianIdealCounting.lean:36:85: Unused tactic linter: `<;>` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:36:89: Unused tactic linter: `ring` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:84:85: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: GaussianIdealCounting.lean:84:81: Unused tactic linter: `<;>` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:84:85: Unused tactic linter: `ring` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:113:20: This simp argument is unused:
+  re_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [im_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GaussianIdealCounting.lean:113:28: This simp argument is unused:
+  im_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [re_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GaussianIdealCounting.lean:235:31: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: GaussianIdealCounting.lean:409:0: 'algebraNorm_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:410:0: 'absNorm_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:411:0: 'a_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:412:0: 'a_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:413:0: 'absNorm_is_sum_two_squares' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:414:0: 'two_ramifies' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:415:0: 'inert_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:416:0: 'split_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:417:0: 'split_factors_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:418:0: 'inert_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:419:0: 'ramified_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:420:0: 'ideal_norm_prime_power_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:421:0: 'dvd_two_prime_pows' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:422:0: 'split_ideal_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:423:0: 'a_split_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:424:0: 'ideal_dvd_span_absNorm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:425:0: 'exps_unique_aux' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:426:0: 'exps_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:427:0: 'dvd_one_prime_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:428:0: 'a_inert_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:429:0: 'a_ramified_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:430:0: 'span_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:431:0: 'factor_recover' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:432:0: 'a_mul_of_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18251/18252] Ran GaussianIdealCounting:irArts
+warning: GaussianIdealCounting.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+--- building GaussianLSeries
+⚠ [18250/18252] Replayed GaussianLSeries
+warning: GaussianLSeries.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianLSeries.lean:31:13: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: GaussianLSeries.lean:31:13: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: GaussianLSeries.lean:57:0: 'GaussianLSeries.LSeries_r' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianLSeries.lean:58:0: 'GaussianLSeries.r_eq_divisor_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18251/18252] Ran GaussianLSeries:irArts
+warning: GaussianLSeries.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+--- building GaussianSynthesis
+⚠ [18250/18256] Replayed GaussianLSeries
+warning: GaussianLSeries.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianLSeries.lean:31:13: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: GaussianLSeries.lean:31:13: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: GaussianLSeries.lean:57:0: 'GaussianLSeries.LSeries_r' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianLSeries.lean:58:0: 'GaussianLSeries.r_eq_divisor_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18251/18256] Ran GaussianLSeries:irArts
+warning: GaussianLSeries.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18256] Replayed GaussianIdealCounting
+warning: GaussianIdealCounting.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianIdealCounting.lean:36:89: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: GaussianIdealCounting.lean:36:85: Unused tactic linter: `<;>` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:36:89: Unused tactic linter: `ring` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:84:85: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: GaussianIdealCounting.lean:84:81: Unused tactic linter: `<;>` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:84:85: Unused tactic linter: `ring` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:113:20: This simp argument is unused:
+  re_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [im_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GaussianIdealCounting.lean:113:28: This simp argument is unused:
+  im_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [re_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GaussianIdealCounting.lean:235:31: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: GaussianIdealCounting.lean:409:0: 'algebraNorm_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:410:0: 'absNorm_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:411:0: 'a_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:412:0: 'a_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:413:0: 'absNorm_is_sum_two_squares' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:414:0: 'two_ramifies' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:415:0: 'inert_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:416:0: 'split_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:417:0: 'split_factors_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:418:0: 'inert_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:419:0: 'ramified_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:420:0: 'ideal_norm_prime_power_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:421:0: 'dvd_two_prime_pows' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:422:0: 'split_ideal_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:423:0: 'a_split_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:424:0: 'ideal_dvd_span_absNorm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:425:0: 'exps_unique_aux' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:426:0: 'exps_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:427:0: 'dvd_one_prime_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:428:0: 'a_inert_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:429:0: 'a_ramified_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:430:0: 'span_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:431:0: 'factor_recover' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:432:0: 'a_mul_of_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18253/18256] Ran GaussianIdealCounting:irArts
+warning: GaussianIdealCounting.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18256] Replayed GaussianSynthesis
+warning: GaussianSynthesis.lean:67:22: This simp argument is unused:
+  hk.neg_one_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hk, this, (hk.add_one).neg_one_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: GaussianSynthesis.lean:110:0: 'GaussianSynthesis.A_eq_R' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianSynthesis.lean:111:0: 'GaussianSynthesis.a_eq_r' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianSynthesis.lean:112:0: 'GaussianSynthesis.LSeries_ideal_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (18256 jobs).
+--- building GaussianDedekindBridge
+⚠ [18250/18258] Replayed GaussianLSeries
+warning: GaussianLSeries.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianLSeries.lean:31:13: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: GaussianLSeries.lean:31:13: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: GaussianLSeries.lean:57:0: 'GaussianLSeries.LSeries_r' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianLSeries.lean:58:0: 'GaussianLSeries.r_eq_divisor_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18251/18258] Ran GaussianLSeries:irArts
+warning: GaussianLSeries.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18258] Replayed GaussianIdealCounting
+warning: GaussianIdealCounting.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianIdealCounting.lean:36:89: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: GaussianIdealCounting.lean:36:85: Unused tactic linter: `<;>` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:36:89: Unused tactic linter: `ring` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:84:85: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: GaussianIdealCounting.lean:84:81: Unused tactic linter: `<;>` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:84:85: Unused tactic linter: `ring` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:113:20: This simp argument is unused:
+  re_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [im_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GaussianIdealCounting.lean:113:28: This simp argument is unused:
+  im_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [re_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GaussianIdealCounting.lean:235:31: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: GaussianIdealCounting.lean:409:0: 'algebraNorm_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:410:0: 'absNorm_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:411:0: 'a_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:412:0: 'a_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:413:0: 'absNorm_is_sum_two_squares' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:414:0: 'two_ramifies' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:415:0: 'inert_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:416:0: 'split_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:417:0: 'split_factors_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:418:0: 'inert_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:419:0: 'ramified_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:420:0: 'ideal_norm_prime_power_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:421:0: 'dvd_two_prime_pows' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:422:0: 'split_ideal_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:423:0: 'a_split_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:424:0: 'ideal_dvd_span_absNorm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:425:0: 'exps_unique_aux' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:426:0: 'exps_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:427:0: 'dvd_one_prime_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:428:0: 'a_inert_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:429:0: 'a_ramified_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:430:0: 'span_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:431:0: 'factor_recover' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:432:0: 'a_mul_of_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18253/18258] Ran GaussianIdealCounting:irArts
+warning: GaussianIdealCounting.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18258] Replayed GaussianSynthesis
+warning: GaussianSynthesis.lean:67:22: This simp argument is unused:
+  hk.neg_one_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hk, this, (hk.add_one).neg_one_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: GaussianSynthesis.lean:110:0: 'GaussianSynthesis.A_eq_R' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianSynthesis.lean:111:0: 'GaussianSynthesis.a_eq_r' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianSynthesis.lean:112:0: 'GaussianSynthesis.LSeries_ideal_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [18256/18258] Replayed GaussianDedekindBridge
+info: GaussianDedekindBridge.lean:76:0: 'gaussian_discr_fundamental' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:77:0: 'gaussianIntegralClosureEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:78:0: 'ringOfIntegersEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:79:0: 'absNorm_comap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:80:0: 'card_ideals_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:81:0: 'dedekindZeta_Qi' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (18258 jobs).
+--- building GaussianDedekindContinuation
+⚠ [18250/18260] Replayed GaussianLSeries
+warning: GaussianLSeries.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianLSeries.lean:31:13: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: GaussianLSeries.lean:31:13: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: GaussianLSeries.lean:57:0: 'GaussianLSeries.LSeries_r' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianLSeries.lean:58:0: 'GaussianLSeries.r_eq_divisor_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18251/18260] Ran GaussianLSeries:irArts
+warning: GaussianLSeries.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18260] Replayed GaussianIdealCounting
+warning: GaussianIdealCounting.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianIdealCounting.lean:36:89: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: GaussianIdealCounting.lean:36:85: Unused tactic linter: `<;>` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:36:89: Unused tactic linter: `ring` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:84:85: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: GaussianIdealCounting.lean:84:81: Unused tactic linter: `<;>` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:84:85: Unused tactic linter: `ring` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:113:20: This simp argument is unused:
+  re_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [im_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GaussianIdealCounting.lean:113:28: This simp argument is unused:
+  im_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [re_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GaussianIdealCounting.lean:235:31: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: GaussianIdealCounting.lean:409:0: 'algebraNorm_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:410:0: 'absNorm_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:411:0: 'a_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:412:0: 'a_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:413:0: 'absNorm_is_sum_two_squares' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:414:0: 'two_ramifies' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:415:0: 'inert_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:416:0: 'split_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:417:0: 'split_factors_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:418:0: 'inert_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:419:0: 'ramified_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:420:0: 'ideal_norm_prime_power_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:421:0: 'dvd_two_prime_pows' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:422:0: 'split_ideal_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:423:0: 'a_split_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:424:0: 'ideal_dvd_span_absNorm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:425:0: 'exps_unique_aux' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:426:0: 'exps_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:427:0: 'dvd_one_prime_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:428:0: 'a_inert_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:429:0: 'a_ramified_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:430:0: 'span_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:431:0: 'factor_recover' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:432:0: 'a_mul_of_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18253/18260] Ran GaussianIdealCounting:irArts
+warning: GaussianIdealCounting.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18260] Replayed GaussianSynthesis
+warning: GaussianSynthesis.lean:67:22: This simp argument is unused:
+  hk.neg_one_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hk, this, (hk.add_one).neg_one_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: GaussianSynthesis.lean:110:0: 'GaussianSynthesis.A_eq_R' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianSynthesis.lean:111:0: 'GaussianSynthesis.a_eq_r' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianSynthesis.lean:112:0: 'GaussianSynthesis.LSeries_ideal_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [18256/18260] Replayed GaussianDedekindBridge
+info: GaussianDedekindBridge.lean:76:0: 'gaussian_discr_fundamental' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:77:0: 'gaussianIntegralClosureEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:78:0: 'ringOfIntegersEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:79:0: 'absNorm_comap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:80:0: 'card_ideals_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:81:0: 'dedekindZeta_Qi' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [18258/18260] Replayed GaussianDedekindContinuation
+info: GaussianDedekindContinuation.lean:54:0: 'dedekindZetaCont_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindContinuation.lean:55:0: 'LFunction_chi4_differentiable' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindContinuation.lean:56:0: 'dedekindZetaCont_differentiableAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindContinuation.lean:57:0: 'chi4C_ne_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindContinuation.lean:58:0: 'LFunction_chi4_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (18260 jobs).
+--- building GaussianDedekindZeros
+⚠ [18250/18262] Replayed GaussianLSeries
+warning: GaussianLSeries.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianLSeries.lean:31:13: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: GaussianLSeries.lean:31:13: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: GaussianLSeries.lean:57:0: 'GaussianLSeries.LSeries_r' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianLSeries.lean:58:0: 'GaussianLSeries.r_eq_divisor_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18251/18262] Ran GaussianLSeries:irArts
+warning: GaussianLSeries.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18262] Replayed GaussianIdealCounting
+warning: GaussianIdealCounting.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianIdealCounting.lean:36:89: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: GaussianIdealCounting.lean:36:85: Unused tactic linter: `<;>` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:36:89: Unused tactic linter: `ring` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:84:85: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: GaussianIdealCounting.lean:84:81: Unused tactic linter: `<;>` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:84:85: Unused tactic linter: `ring` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:113:20: This simp argument is unused:
+  re_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [im_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GaussianIdealCounting.lean:113:28: This simp argument is unused:
+  im_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [re_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GaussianIdealCounting.lean:235:31: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: GaussianIdealCounting.lean:409:0: 'algebraNorm_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:410:0: 'absNorm_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:411:0: 'a_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:412:0: 'a_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:413:0: 'absNorm_is_sum_two_squares' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:414:0: 'two_ramifies' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:415:0: 'inert_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:416:0: 'split_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:417:0: 'split_factors_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:418:0: 'inert_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:419:0: 'ramified_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:420:0: 'ideal_norm_prime_power_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:421:0: 'dvd_two_prime_pows' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:422:0: 'split_ideal_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:423:0: 'a_split_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:424:0: 'ideal_dvd_span_absNorm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:425:0: 'exps_unique_aux' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:426:0: 'exps_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:427:0: 'dvd_one_prime_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:428:0: 'a_inert_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:429:0: 'a_ramified_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:430:0: 'span_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:431:0: 'factor_recover' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:432:0: 'a_mul_of_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18253/18262] Ran GaussianIdealCounting:irArts
+warning: GaussianIdealCounting.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18262] Replayed GaussianSynthesis
+warning: GaussianSynthesis.lean:67:22: This simp argument is unused:
+  hk.neg_one_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hk, this, (hk.add_one).neg_one_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: GaussianSynthesis.lean:110:0: 'GaussianSynthesis.A_eq_R' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianSynthesis.lean:111:0: 'GaussianSynthesis.a_eq_r' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianSynthesis.lean:112:0: 'GaussianSynthesis.LSeries_ideal_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [18256/18262] Replayed GaussianDedekindBridge
+info: GaussianDedekindBridge.lean:76:0: 'gaussian_discr_fundamental' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:77:0: 'gaussianIntegralClosureEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:78:0: 'ringOfIntegersEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:79:0: 'absNorm_comap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:80:0: 'card_ideals_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:81:0: 'dedekindZeta_Qi' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [18258/18262] Replayed GaussianDedekindContinuation
+info: GaussianDedekindContinuation.lean:54:0: 'dedekindZetaCont_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindContinuation.lean:55:0: 'LFunction_chi4_differentiable' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindContinuation.lean:56:0: 'dedekindZetaCont_differentiableAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindContinuation.lean:57:0: 'chi4C_ne_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindContinuation.lean:58:0: 'LFunction_chi4_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [18260/18262] Replayed GaussianDedekindZeros
+info: GaussianDedekindZeros.lean:84:0: 'dedekindZetaCont_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindZeros.lean:85:0: 'dedekindZetaCont_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindZeros.lean:86:0: 'chi4C_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindZeros.lean:87:0: 'trivial_is_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindZeros.lean:88:0: 'trivial_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindZeros.lean:89:0: 'nontrivialZero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindZeros.lean:90:0: 'LFunction_chi4_one_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (18262 jobs).
+--- building GaussianDedekindRH
+⚠ [18250/18264] Replayed GaussianLSeries
+warning: GaussianLSeries.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianLSeries.lean:31:13: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: GaussianLSeries.lean:31:13: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: GaussianLSeries.lean:57:0: 'GaussianLSeries.LSeries_r' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianLSeries.lean:58:0: 'GaussianLSeries.r_eq_divisor_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18251/18264] Ran GaussianLSeries:irArts
+warning: GaussianLSeries.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18264] Replayed GaussianIdealCounting
+warning: GaussianIdealCounting.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianIdealCounting.lean:36:89: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: GaussianIdealCounting.lean:36:85: Unused tactic linter: `<;>` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:36:89: Unused tactic linter: `ring` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:84:85: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: GaussianIdealCounting.lean:84:81: Unused tactic linter: `<;>` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:84:85: Unused tactic linter: `ring` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:113:20: This simp argument is unused:
+  re_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [im_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GaussianIdealCounting.lean:113:28: This simp argument is unused:
+  im_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [re_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GaussianIdealCounting.lean:235:31: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: GaussianIdealCounting.lean:409:0: 'algebraNorm_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:410:0: 'absNorm_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:411:0: 'a_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:412:0: 'a_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:413:0: 'absNorm_is_sum_two_squares' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:414:0: 'two_ramifies' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:415:0: 'inert_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:416:0: 'split_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:417:0: 'split_factors_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:418:0: 'inert_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:419:0: 'ramified_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:420:0: 'ideal_norm_prime_power_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:421:0: 'dvd_two_prime_pows' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:422:0: 'split_ideal_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:423:0: 'a_split_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:424:0: 'ideal_dvd_span_absNorm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:425:0: 'exps_unique_aux' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:426:0: 'exps_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:427:0: 'dvd_one_prime_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:428:0: 'a_inert_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:429:0: 'a_ramified_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:430:0: 'span_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:431:0: 'factor_recover' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:432:0: 'a_mul_of_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18253/18264] Ran GaussianIdealCounting:irArts
+warning: GaussianIdealCounting.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18264] Replayed GaussianSynthesis
+warning: GaussianSynthesis.lean:67:22: This simp argument is unused:
+  hk.neg_one_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hk, this, (hk.add_one).neg_one_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: GaussianSynthesis.lean:110:0: 'GaussianSynthesis.A_eq_R' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianSynthesis.lean:111:0: 'GaussianSynthesis.a_eq_r' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianSynthesis.lean:112:0: 'GaussianSynthesis.LSeries_ideal_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [18256/18264] Replayed GaussianDedekindBridge
+info: GaussianDedekindBridge.lean:76:0: 'gaussian_discr_fundamental' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:77:0: 'gaussianIntegralClosureEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:78:0: 'ringOfIntegersEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:79:0: 'absNorm_comap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:80:0: 'card_ideals_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:81:0: 'dedekindZeta_Qi' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [18258/18264] Replayed GaussianDedekindContinuation
+info: GaussianDedekindContinuation.lean:54:0: 'dedekindZetaCont_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindContinuation.lean:55:0: 'LFunction_chi4_differentiable' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindContinuation.lean:56:0: 'dedekindZetaCont_differentiableAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindContinuation.lean:57:0: 'chi4C_ne_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindContinuation.lean:58:0: 'LFunction_chi4_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [18260/18264] Replayed GaussianDedekindZeros
+info: GaussianDedekindZeros.lean:84:0: 'dedekindZetaCont_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindZeros.lean:85:0: 'dedekindZetaCont_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindZeros.lean:86:0: 'chi4C_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindZeros.lean:87:0: 'trivial_is_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindZeros.lean:88:0: 'trivial_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindZeros.lean:89:0: 'nontrivialZero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindZeros.lean:90:0: 'LFunction_chi4_one_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [18262/18264] Replayed GaussianDedekindRH
+info: GaussianDedekindRH.lean:42:0: 'zetaZeroLine_iff_RH' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindRH.lean:43:0: 'nontrivialZero_re_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindRH.lean:44:0: 'nontrivialZero_re_half_of_RH' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (18264 jobs).
+--- building GaussianChi4GRHForm
+⚠ [18250/18266] Replayed GaussianLSeries
+warning: GaussianLSeries.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianLSeries.lean:31:13: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: GaussianLSeries.lean:31:13: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: GaussianLSeries.lean:57:0: 'GaussianLSeries.LSeries_r' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianLSeries.lean:58:0: 'GaussianLSeries.r_eq_divisor_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18251/18266] Ran GaussianLSeries:irArts
+warning: GaussianLSeries.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18266] Replayed GaussianIdealCounting
+warning: GaussianIdealCounting.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianIdealCounting.lean:36:89: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: GaussianIdealCounting.lean:36:85: Unused tactic linter: `<;>` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:36:89: Unused tactic linter: `ring` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:84:85: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: GaussianIdealCounting.lean:84:81: Unused tactic linter: `<;>` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:84:85: Unused tactic linter: `ring` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: GaussianIdealCounting.lean:113:20: This simp argument is unused:
+  re_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [im_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GaussianIdealCounting.lean:113:28: This simp argument is unused:
+  im_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [re_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GaussianIdealCounting.lean:235:31: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: GaussianIdealCounting.lean:409:0: 'algebraNorm_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:410:0: 'absNorm_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:411:0: 'a_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:412:0: 'a_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:413:0: 'absNorm_is_sum_two_squares' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:414:0: 'two_ramifies' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:415:0: 'inert_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:416:0: 'split_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:417:0: 'split_factors_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:418:0: 'inert_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:419:0: 'ramified_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:420:0: 'ideal_norm_prime_power_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:421:0: 'dvd_two_prime_pows' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:422:0: 'split_ideal_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:423:0: 'a_split_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:424:0: 'ideal_dvd_span_absNorm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:425:0: 'exps_unique_aux' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:426:0: 'exps_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:427:0: 'dvd_one_prime_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:428:0: 'a_inert_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:429:0: 'a_ramified_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:430:0: 'span_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:431:0: 'factor_recover' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianIdealCounting.lean:432:0: 'a_mul_of_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18253/18266] Ran GaussianIdealCounting:irArts
+warning: GaussianIdealCounting.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18266] Replayed GaussianSynthesis
+warning: GaussianSynthesis.lean:67:22: This simp argument is unused:
+  hk.neg_one_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hk, this, (hk.add_one).neg_one_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: GaussianSynthesis.lean:110:0: 'GaussianSynthesis.A_eq_R' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianSynthesis.lean:111:0: 'GaussianSynthesis.a_eq_r' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianSynthesis.lean:112:0: 'GaussianSynthesis.LSeries_ideal_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [18256/18266] Replayed GaussianDedekindBridge
+info: GaussianDedekindBridge.lean:76:0: 'gaussian_discr_fundamental' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:77:0: 'gaussianIntegralClosureEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:78:0: 'ringOfIntegersEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:79:0: 'absNorm_comap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:80:0: 'card_ideals_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindBridge.lean:81:0: 'dedekindZeta_Qi' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [18258/18266] Replayed GaussianDedekindContinuation
+info: GaussianDedekindContinuation.lean:54:0: 'dedekindZetaCont_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindContinuation.lean:55:0: 'LFunction_chi4_differentiable' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindContinuation.lean:56:0: 'dedekindZetaCont_differentiableAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindContinuation.lean:57:0: 'chi4C_ne_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindContinuation.lean:58:0: 'LFunction_chi4_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [18260/18266] Replayed GaussianDedekindZeros
+info: GaussianDedekindZeros.lean:84:0: 'dedekindZetaCont_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindZeros.lean:85:0: 'dedekindZetaCont_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindZeros.lean:86:0: 'chi4C_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindZeros.lean:87:0: 'trivial_is_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindZeros.lean:88:0: 'trivial_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindZeros.lean:89:0: 'nontrivialZero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindZeros.lean:90:0: 'LFunction_chi4_one_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [18262/18266] Replayed GaussianDedekindRH
+info: GaussianDedekindRH.lean:42:0: 'zetaZeroLine_iff_RH' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindRH.lean:43:0: 'nontrivialZero_re_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianDedekindRH.lean:44:0: 'nontrivialZero_re_half_of_RH' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [18264/18266] Replayed GaussianChi4GRHForm
+info: GaussianChi4GRHForm.lean:121:0: 'chi4C_isPrimitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianChi4GRHForm.lean:122:0: 'completed_ne_zero_of_re_nonpos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianChi4GRHForm.lean:123:0: 'LFunction_chi4_zero_iff_of_re_nonpos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianChi4GRHForm.lean:124:0: 'chi4ZeroLine_iff_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianChi4GRHForm.lean:125:0: 'chi4C_not_factorsThrough_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianChi4GRHForm.lean:126:0: 'gammaFactor_inv_ne_zero_of_one_le_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianChi4GRHForm.lean:127:0: 'completed_inv_ne_zero_of_one_le_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianChi4GRHForm.lean:128:0: 'nontrivialZero_re_half_of_RH_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (18266 jobs).
+STAGE 2 PASSED: all 9 files compiled.
+
+=== STAGE 3: AXIOMS ===
+'G.ringEquivGaussianInt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'G.rotate360_eq_self' depends on axioms: [propext]
+'G.norm_rotate90' depends on axioms: [propext]
+'algebraNorm_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'absNorm_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'a_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'a_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'absNorm_is_sum_two_squares' depends on axioms: [propext, Classical.choice, Quot.sound]
+'two_ramifies' depends on axioms: [propext, Classical.choice, Quot.sound]
+'inert_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'split_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'split_factors_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'inert_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ramified_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ideal_norm_prime_power_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'dvd_two_prime_pows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'split_ideal_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'a_split_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ideal_dvd_span_absNorm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'exps_unique_aux' depends on axioms: [propext, Classical.choice, Quot.sound]
+'exps_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'dvd_one_prime_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'a_inert_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'a_ramified_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'span_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'factor_recover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'a_mul_of_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GaussianLSeries.LSeries_r' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GaussianLSeries.r_eq_divisor_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GaussianSynthesis.A_eq_R' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GaussianSynthesis.a_eq_r' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GaussianSynthesis.LSeries_ideal_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'gaussian_discr_fundamental' depends on axioms: [propext, Classical.choice, Quot.sound]
+'gaussianIntegralClosureEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ringOfIntegersEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'absNorm_comap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'card_ideals_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'dedekindZeta_Qi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'dedekindZetaCont_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LFunction_chi4_differentiable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'dedekindZetaCont_differentiableAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'chi4C_ne_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LFunction_chi4_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'dedekindZetaCont_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'dedekindZetaCont_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'chi4C_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'trivial_is_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'trivial_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'nontrivialZero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LFunction_chi4_one_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'zetaZeroLine_iff_RH' depends on axioms: [propext, Classical.choice, Quot.sound]
+'nontrivialZero_re_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'nontrivialZero_re_half_of_RH' depends on axioms: [propext, Classical.choice, Quot.sound]
+'chi4C_isPrimitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'completed_ne_zero_of_re_nonpos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LFunction_chi4_zero_iff_of_re_nonpos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'chi4ZeroLine_iff_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'chi4C_not_factorsThrough_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'gammaFactor_inv_ne_zero_of_one_le_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+'completed_inv_ne_zero_of_one_le_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+'nontrivialZero_re_half_of_RH_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+STAGE 3 PASSED: 61 audited theorems, only propext / Classical.choice / Quot.sound.
+
+ALL STAGES PASSED. Full output saved to verify_build.log.
