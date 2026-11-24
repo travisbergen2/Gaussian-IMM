@@ -1,0 +1,7 @@
+QuadraticDivisorBound build log — 2026-11-24T15:20Z
+Toolchain: leanprover/lean4:v4.37.0-rc1; Mathlib commit: bce3fc3a37ff1790b2e3b0ccf8f941053aefde19
+Imports QuadraticLocalIdealCount + DedekindIdealCountMultiplicative + Mathlib only. Branch eisenstein-extension; baseline 9c55a1e unchanged.
+sha256: b9035b45c1ee99b81e2129ce4211ac08b4179fd95a55424d36a07d49fe5f48be
+
+'QuadBound.A_prime_pow_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuadBound.A_le_sigma0' depends on axioms: [propext, Classical.choice, Quot.sound]

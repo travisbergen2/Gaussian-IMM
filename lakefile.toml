@@ -58,3 +58,6 @@ name = "DedekindIdealCountMultiplicative"
 
 [[lean_lib]]
 name = "GenericMultiplicativeInstances"
+
+[[lean_lib]]
+name = "QuadraticDivisorBound"
