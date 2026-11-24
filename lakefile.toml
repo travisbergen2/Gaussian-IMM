@@ -88,3 +88,6 @@ name = "Q5Splitting"
 
 [[lean_lib]]
 name = "Q5EulerProduct"
+
+[[lean_lib]]
+name = "Q5NotPrincipal"
