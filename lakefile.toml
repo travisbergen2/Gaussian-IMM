@@ -52,3 +52,6 @@ name = "EisensteinCharacter"
 
 [[lean_lib]]
 name = "EisensteinLocalInstance"
+
+[[lean_lib]]
+name = "DedekindIdealCountMultiplicative"

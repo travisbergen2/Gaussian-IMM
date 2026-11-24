@@ -1,0 +1,8 @@
+DedekindIdealCountMultiplicative build log — 2026-11-24T15:06Z
+Toolchain: leanprover/lean4:v4.37.0-rc1; Mathlib commit: bce3fc3a37ff1790b2e3b0ccf8f941053aefde19
+Branch eisenstein-extension; baseline 9c55a1e unchanged.
+sha256: de8f004cf12dbb33fa74690452ba7dbfb6a6899629c2155ce2315a89559e937a
+
+'IdealCount.A_mul_of_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IdealCount.A_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IdealCount.absNorm_span_natCast' depends on axioms: [propext, Classical.choice, Quot.sound]
