@@ -1,0 +1,2 @@
+'LocalCount.card_alloc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LocalCount.card_ideals_norm_prime_pow_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
