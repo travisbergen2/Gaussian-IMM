@@ -67,3 +67,6 @@ name = "QuadraticLocalEulerFactor"
 
 [[lean_lib]]
 name = "QuadraticEulerProduct"
+
+[[lean_lib]]
+name = "EisensteinEulerProduct"

@@ -1,0 +1,2 @@
+'chi3C_matches_splitting' depends on axioms: [propext, Classical.choice, Quot.sound]
+'eisenstein_LSeries_eq_zeta_mul_L' depends on axioms: [propext, Classical.choice, Quot.sound]
