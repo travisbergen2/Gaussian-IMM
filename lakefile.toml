@@ -109,3 +109,6 @@ name = "GaloisLocalEulerFactor"
 
 [[lean_lib]]
 name = "AbelianEulerProduct"
+
+[[lean_lib]]
+name = "Cyclo5Character"
