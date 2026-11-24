@@ -39,3 +39,7 @@ name = "GaussianDedekindRH"
 
 [[lean_lib]]
 name = "GaussianChi4GRHForm"
+
+# Additive module (branch norm-obstruction). Not part of the frozen nine-file audit.
+[[lean_lib]]
+name = "GaussianNormObstruction"

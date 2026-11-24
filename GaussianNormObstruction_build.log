@@ -1,0 +1,10 @@
+GaussianNormObstruction build log — 2026-11-24T12:43Z
+Toolchain: leanprover/lean4:v4.37.0-rc1; Mathlib commit: bce3fc3a37ff1790b2e3b0ccf8f941053aefde19
+Imports GaussianSynthesis (baseline 9c55a1e, unchanged). Additive module; not part of SHA256SUMS / verify.sh.
+sha256: 0c528bce4e833936bb4cbf71aacdc56804dc4a4a72b1da63c7ffe522c79c366e
+
+'a_prime_pow_eq_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'a_eq_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'a_pos_iff_sum_two_squares' depends on axioms: [propext, Classical.choice, Quot.sound]
+'sum_two_squares_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'agrees_with_mathlib' depends on axioms: [propext, Classical.choice, Quot.sound]
