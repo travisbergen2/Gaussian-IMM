@@ -43,3 +43,6 @@ name = "GaussianChi4GRHForm"
 # Additive module (branch eisenstein-extension). Not part of the frozen nine-file audit.
 [[lean_lib]]
 name = "QuadraticLocalIdealCount"
+
+[[lean_lib]]
+name = "GaussianLocalInstance"

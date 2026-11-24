@@ -1,0 +1,33 @@
+GaussianLocalInstance build log — 2026-11-24T14:53Z
+Toolchain: leanprover/lean4:v4.37.0-rc1; Mathlib commit: bce3fc3a37ff1790b2e3b0ccf8f941053aefde19
+Imports QuadraticLocalIdealCount + GaussianIdealCounting (baseline 9c55a1e, unchanged). Branch eisenstein-extension.
+sha256: 8b630c5c22866aa256518cc8477409783f82f6f30aec6d4fe0e6a572710cecf4
+
+INDEPENDENT: generic_ramified avoids [a_split_prime_power,
+ a_inert_prime_power,
+ a_ramified_prime_power,
+ split_ideal_factorization,
+ exps_unique,
+ exps_unique_aux,
+ dvd_one_prime_pow,
+ dvd_two_prime_pows]
+INDEPENDENT: generic_split avoids [a_split_prime_power,
+ a_inert_prime_power,
+ a_ramified_prime_power,
+ split_ideal_factorization,
+ exps_unique,
+ exps_unique_aux,
+ dvd_one_prime_pow,
+ dvd_two_prime_pows]
+INDEPENDENT: generic_inert avoids [a_split_prime_power,
+ a_inert_prime_power,
+ a_ramified_prime_power,
+ split_ideal_factorization,
+ exps_unique,
+ exps_unique_aux,
+ dvd_one_prime_pow,
+ dvd_two_prime_pows]
+CONTROL OK: agree_split reaches the baseline counting route
+'generic_ramified' depends on axioms: [propext, Classical.choice, Quot.sound]
+'generic_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'generic_inert' depends on axioms: [propext, Classical.choice, Quot.sound]
