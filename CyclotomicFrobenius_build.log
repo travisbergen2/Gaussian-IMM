@@ -1,0 +1,2 @@
+'CycloFrob.sigmaP_isArithFrobAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CycloFrob.stabilizer_eq_zpowers' depends on axioms: [propext, Classical.choice, Quot.sound]
