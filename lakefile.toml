@@ -139,3 +139,6 @@ name = "Cyclo7Galois"
 
 [[lean_lib]]
 name = "CyclotomicFrobenius"
+
+[[lean_lib]]
+name = "CyclotomicFrobeniusInstances"
