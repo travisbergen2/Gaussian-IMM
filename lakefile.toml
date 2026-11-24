@@ -46,3 +46,6 @@ name = "QuadraticLocalIdealCount"
 
 [[lean_lib]]
 name = "GaussianLocalInstance"
+
+[[lean_lib]]
+name = "EisensteinCharacter"

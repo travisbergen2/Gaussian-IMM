@@ -1,0 +1,12 @@
+EisensteinCharacter build log — 2026-11-24T14:56Z
+Toolchain: leanprover/lean4:v4.37.0-rc1; Mathlib commit: bce3fc3a37ff1790b2e3b0ccf8f941053aefde19
+Imports Mathlib only (nothing Gaussian). Branch eisenstein-extension.
+sha256: 21653536363310d189624a08e2d10841dc03c25887f1417c748f671319b6122c
+
+'chi3C_isPrimitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'chi3C_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'chi3C_eq_one_iff_orderOf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'chi3C_eq_neg_one_iff_orderOf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'chi3C_ne_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'chi3C_nat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'chi3C_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
