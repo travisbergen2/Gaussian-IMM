@@ -100,3 +100,6 @@ name = "LocalCountBinomial"
 
 [[lean_lib]]
 name = "WeightedLocalIdealCount"
+
+[[lean_lib]]
+name = "DedekindSummable"
