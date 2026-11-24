@@ -73,3 +73,6 @@ name = "EisensteinEulerProduct"
 
 [[lean_lib]]
 name = "QuadraticGalois"
+
+[[lean_lib]]
+name = "QuadraticFactorizationNoGalois"
