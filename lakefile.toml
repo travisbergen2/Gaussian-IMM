@@ -76,3 +76,6 @@ name = "QuadraticGalois"
 
 [[lean_lib]]
 name = "QuadraticFactorizationNoGalois"
+
+[[lean_lib]]
+name = "Q5Field"
