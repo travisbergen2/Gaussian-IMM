@@ -168,3 +168,23 @@ The script runs three stages and stops at the first failure:
 The full output goes to `verify_build.log`.
 
 I tested it in the cloud on v4.37.0-rc1 and Mathlib `bce3fc3a…`, and all three stages passed with 61 audited theorems. I also checked both failure paths. With one byte appended to a file, it stops at STAGE 1. With an injected `sorry` theorem, STAGE 2 passes and STAGE 3 fails on `sorryAx`. With one `#print axioms` line deleted, it fails STAGE 3 with "expected 61 audit lines, found 60", even when the manifest is updated to match. The 4.36.0-rc1 run on the user's machine is still the open check.
+
+## 13. Branch `norm-obstruction`: additive modules (not part of the frozen audit)
+
+These build on baseline `9c55a1e` and change none of its files, `SHA256SUMS` or `verify.sh`.
+
+| Module | Commit | Result |
+| --- | --- | --- |
+| `GaussianNormObstruction.lean` | `e235562` | For n > 0, a(n) = 0 ⟺ some prime p ≡ 3 mod 4 has odd exponent in n. Also a(n) > 0 ⟺ n = x² + y², and the two-squares criterion, cross-checked against Mathlib's `Nat.eq_sq_add_sq_iff`. |
+| `GaussianEulerProduct.lean` | `057ddd5` | Σ a(n)n⁻ˢ = ∏_p E_p(s), via ζ·L(χ₄). The closed forms (1−2⁻ˢ)⁻¹, ((1−p⁻ˢ)²)⁻¹ and (1−(p⁻ˢ)²)⁻¹, with each E_p = Σₖ a(pᵏ)p⁻ᵏˢ. |
+| `GaussianEulerAlgebraic.lean` | `aa0eeb5` | A second derivation of Σ a(n)n⁻ˢ = ζ(s)L(s, χ₄) that doesn't use the divisor-sum identity: a(n) ≤ d(n), absolute convergence for Re s > 1, and Mathlib's multiplicative Euler product. |
+
+**Two global routes to the same identity.** Route A, character-theoretic: a = 1 ∗ χ₄, then ζ·L(χ₄). Route B, ideal-theoretic: prime decomposition and multiplicativity, a(n) ≤ d(n), then the multiplicative Euler product. The two routes share the local arithmetic (the prime-power counts). Their global steps are different.
+
+**The five properties tracked, kept separate:**
+
+1. *Mathematical correctness.* Classical results, stated against Mathlib's definitions.
+2. *Kernel-checked validity.* Every module compiles. The build logs are committed.
+3. *Axiom audit.* Only `propext`, `Classical.choice` and `Quot.sound`. Baseline: 61 theorems, enforced by `verify.sh`. Branch modules: their own logs.
+4. *Dependency independence.* `#check_independent` in `GaussianEulerAlgebraic.lean` scans each proof through every constant defined in this project. It finds that route B never reaches `A_eq_R`, `a_eq_r`, `a_eq_divisor_sum`, `LSeries_ideal_count`, `LSeries_r`, `r_eq_divisor_sum`, `ideal_count_eulerProduct` or `dedekindZeta_Qi`. A negative control, `#check_dependent`, confirms the scanner detects route A. The check applies to project constants only. It does not show that imported source files are independent, and it says nothing about Mathlib internally.
+5. *Reproducibility on the pinned environment.* Cloud builds ran on v4.37.0-rc1 with Mathlib `bce3fc3a`. The rebuild on the user's pinned 4.36.0-rc1 is still open.
