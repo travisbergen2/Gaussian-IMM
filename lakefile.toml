@@ -82,3 +82,6 @@ name = "Q5Field"
 
 [[lean_lib]]
 name = "Q5Character"
+
+[[lean_lib]]
+name = "Q5Splitting"
