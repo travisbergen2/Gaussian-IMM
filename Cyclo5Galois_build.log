@@ -1,0 +1,4 @@
+'Cyclo5.galCharEquiv_eq_one_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Cyclo5.galChar_sigma_p' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Cyclo5.card_nontrivial_gal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Cyclo5.LSeries_A_eq_zeta_mul_prod_galois' depends on axioms: [propext, Classical.choice, Quot.sound]

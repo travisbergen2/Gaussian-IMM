@@ -121,3 +121,6 @@ name = "WeightedLocalGeneratingFunction"
 
 [[lean_lib]]
 name = "Cyclo5Characters"
+
+[[lean_lib]]
+name = "Cyclo5Galois"
