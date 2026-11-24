@@ -118,3 +118,6 @@ name = "Cyclo5EulerProduct"
 
 [[lean_lib]]
 name = "WeightedLocalGeneratingFunction"
+
+[[lean_lib]]
+name = "Cyclo5Characters"
