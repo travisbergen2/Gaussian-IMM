@@ -61,3 +61,6 @@ name = "GenericMultiplicativeInstances"
 
 [[lean_lib]]
 name = "QuadraticDivisorBound"
+
+[[lean_lib]]
+name = "QuadraticLocalEulerFactor"

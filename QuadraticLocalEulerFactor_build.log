@@ -1,0 +1,2 @@
+'QuadEuler.A_prime_pow_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuadEuler.localFactor_hasSum' depends on axioms: [propext, Classical.choice, Quot.sound]
