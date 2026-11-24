@@ -112,3 +112,6 @@ name = "AbelianEulerProduct"
 
 [[lean_lib]]
 name = "Cyclo5Character"
+
+[[lean_lib]]
+name = "Cyclo5EulerProduct"
