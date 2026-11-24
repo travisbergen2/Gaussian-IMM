@@ -1,0 +1,12 @@
+GaussianEulerProduct build log — 2026-11-24T12:50Z
+Toolchain: leanprover/lean4:v4.37.0-rc1; Mathlib commit: bce3fc3a37ff1790b2e3b0ccf8f941053aefde19
+Imports GaussianDedekindContinuation (baseline 9c55a1e, unchanged). Additive module; not part of SHA256SUMS / verify.sh.
+sha256: 5e3e05e8340f5cf6ae44855bf2a91af42bc7bb1fde496a73d94f79a87b3da5fd
+
+'ideal_count_eulerProduct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'localFactor_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'localFactor_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'localFactor_inert' depends on axioms: [propext, Classical.choice, Quot.sound]
+'localFactor_hasSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'hasSum_succ_mul_geometric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'hasSum_even_geometric' depends on axioms: [propext, Classical.choice, Quot.sound]
