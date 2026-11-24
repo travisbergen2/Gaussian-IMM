@@ -106,3 +106,6 @@ name = "DedekindSummable"
 
 [[lean_lib]]
 name = "GaloisLocalEulerFactor"
+
+[[lean_lib]]
+name = "AbelianEulerProduct"
