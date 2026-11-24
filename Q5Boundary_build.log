@@ -1,0 +1,1 @@
+'Q5.nonPID_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]

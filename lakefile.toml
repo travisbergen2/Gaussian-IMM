@@ -91,3 +91,6 @@ name = "Q5EulerProduct"
 
 [[lean_lib]]
 name = "Q5NotPrincipal"
+
+[[lean_lib]]
+name = "Q5Boundary"
