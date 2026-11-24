@@ -79,3 +79,6 @@ name = "QuadraticFactorizationNoGalois"
 
 [[lean_lib]]
 name = "Q5Field"
+
+[[lean_lib]]
+name = "Q5Character"
