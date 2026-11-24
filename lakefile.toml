@@ -55,3 +55,6 @@ name = "EisensteinLocalInstance"
 
 [[lean_lib]]
 name = "DedekindIdealCountMultiplicative"
+
+[[lean_lib]]
+name = "GenericMultiplicativeInstances"

@@ -1,0 +1,10 @@
+GenericMultiplicativeInstances build log — 2026-11-24T15:06Z
+Toolchain: leanprover/lean4:v4.37.0-rc1; Mathlib commit: bce3fc3a37ff1790b2e3b0ccf8f941053aefde19
+Branch eisenstein-extension; baseline 9c55a1e unchanged.
+sha256: c41e649b4e2bb4d61013b59cc30ccbbba6d2c9d185739674ac70b3c8934788b2
+
+CONTROL OK: a_mul_baseline reaches the Gaussian multiplicativity proof
+INDEPENDENT: a_mul_generic avoids [factor_recover, span_coprime, a_mul_of_coprime]
+INDEPENDENT: a3_mul_of_coprime avoids [factor_recover, span_coprime, a_mul_of_coprime]
+'a_mul_generic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'a3_mul_of_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
