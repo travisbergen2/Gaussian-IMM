@@ -1,0 +1,5 @@
+Fresh clone of cyclic-cubic, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine). lake build (78 libraries): Build completed successfully (18483 jobs), exit 0. verify.sh: ALL STAGES PASSED.
+info: Cyclo9CubicEulerProduct.lean:180:0: 'Cyclo9Cubic.perpNontriv_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Cyclo9CubicEulerProduct.lean:181:0: 'Cyclo9Cubic.conductor_eq_nine' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Cyclo9CubicEulerProduct.lean:182:0: 'Cyclo9Cubic.local_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Cyclo9CubicEulerProduct.lean:183:0: 'Cyclo9Cubic.zeta_K' depends on axioms: [propext, Classical.choice, Quot.sound]

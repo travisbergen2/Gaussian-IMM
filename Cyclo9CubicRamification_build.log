@@ -1,0 +1,3 @@
+Fresh clone of cyclic-cubic, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine). lake build (78 libraries): Build completed successfully (18483 jobs), exit 0. verify.sh: ALL STAGES PASSED.
+info: Cyclo9CubicRamification.lean:63:0: 'Cyclo9Cubic.data_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Cyclo9CubicRamification.lean:64:0: 'Cyclo9Cubic.unramified' depends on axioms: [propext, Classical.choice, Quot.sound]
