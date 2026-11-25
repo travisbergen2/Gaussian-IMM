@@ -253,3 +253,6 @@ name = "Cyclo9CubicDiscriminant"
 
 [[lean_lib]]
 name = "CubicGaussSumIdentity"
+
+[[lean_lib]]
+name = "EisensteinJacobiPrime"
