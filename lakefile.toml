@@ -199,3 +199,6 @@ name = "ConductorCongruence"
 
 [[lean_lib]]
 name = "Cyclo20Conductors"
+
+[[lean_lib]]
+name = "GaloisCharacterEulerProduct"
