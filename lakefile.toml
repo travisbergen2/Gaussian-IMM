@@ -205,3 +205,6 @@ name = "GaloisCharacterEulerProduct"
 
 [[lean_lib]]
 name = "CyclotomicSqrt"
+
+[[lean_lib]]
+name = "QuadraticKroneckerWeber"
