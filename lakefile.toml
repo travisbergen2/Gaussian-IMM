@@ -166,3 +166,6 @@ name = "CyclotomicSubfieldEulerProduct"
 
 [[lean_lib]]
 name = "Cyclo7CubicField"
+
+[[lean_lib]]
+name = "SubfieldInertia"
