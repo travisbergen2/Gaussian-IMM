@@ -1,0 +1,24 @@
+Fresh clone of conductor-twenty, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine).
+lake build (58 libraries): Build completed successfully (18423 jobs), exit 0. verify.sh: ALL STAGES PASSED (61 audits).
+⚠ [18418/18423] Built Cyclo20Biquadratic (31s)
+warning: Cyclo20Biquadratic.lean:29:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: Cyclo20Biquadratic.lean:33:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: Cyclo20Biquadratic.lean:111:57: Unused tactic linter: there are no goals left for `try ring`.
+warning: Cyclo20Biquadratic.lean:136:57: Unused tactic linter: `try` can be removed.
+warning: Cyclo20Biquadratic.lean:335:83: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: Cyclo20Biquadratic.lean:336:4: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: Cyclo20Biquadratic.lean:339:83: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: Cyclo20Biquadratic.lean:340:4: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: Cyclo20Biquadratic.lean:349:99: this tactic is never executed
+warning: Cyclo20Biquadratic.lean:349:95: Unused tactic linter: `<;>` can be removed.
+warning: Cyclo20Biquadratic.lean:349:99: Unused tactic linter: `decide` is never executed.
+warning: Cyclo20Biquadratic.lean:351:101: this tactic is never executed
+warning: Cyclo20Biquadratic.lean:351:97: Unused tactic linter: `<;>` can be removed.
+warning: Cyclo20Biquadratic.lean:351:101: Unused tactic linter: `decide` is never executed.
+info: Cyclo20Biquadratic.lean:482:0: 'Cyclo20.fixedField_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Cyclo20Biquadratic.lean:483:0: 'Cyclo20.data_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Cyclo20Biquadratic.lean:484:0: 'Cyclo20.data_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Cyclo20Biquadratic.lean:485:0: 'Cyclo20.euler_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Cyclo20Biquadratic.lean:486:0: 'Cyclo20.euler_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Cyclo20Biquadratic.lean:487:0: 'Cyclo20.perp_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Cyclo20Biquadratic.lean:488:0: 'Cyclo20.LSeries_K_explicit' depends on axioms: [propext, Classical.choice, Quot.sound]
