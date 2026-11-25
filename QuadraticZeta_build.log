@@ -1,0 +1,4 @@
+Fresh clone of quadratic-zeta, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine). lake build (67 libraries): Build completed successfully (18450 jobs), exit 0. verify.sh: ALL STAGES PASSED.
+ℹ [18448/18450] Built QuadraticZeta (17s)
+info: QuadraticZeta.lean:68:0: 'QuadZeta.perp_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: QuadraticZeta.lean:69:0: 'QuadZeta.quadratic_zeta' depends on axioms: [propext, Classical.choice, Quot.sound]

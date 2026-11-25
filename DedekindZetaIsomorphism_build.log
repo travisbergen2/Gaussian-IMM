@@ -1,0 +1,5 @@
+Fresh clone of quadratic-zeta, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine). lake build (67 libraries): Build completed successfully (18450 jobs), exit 0. verify.sh: ALL STAGES PASSED.
+ℹ [18442/18450] Built DedekindZetaIsomorphism (42s)
+info: DedekindZetaIsomorphism.lean:55:0: 'IdealCountIso.absNorm_comap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DedekindZetaIsomorphism.lean:56:0: 'IdealCountIso.A_eq_of_ringEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DedekindZetaIsomorphism.lean:57:0: 'IdealCountIso.LSeries_eq_of_equiv' depends on axioms: [propext, Classical.choice, Quot.sound]
