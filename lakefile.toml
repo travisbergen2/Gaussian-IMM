@@ -151,3 +151,6 @@ name = "SubfieldResidueDegree"
 
 [[lean_lib]]
 name = "SubfieldRamified"
+
+[[lean_lib]]
+name = "CyclotomicSubfieldSplitting"

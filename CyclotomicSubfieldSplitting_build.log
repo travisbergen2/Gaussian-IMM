@@ -1,0 +1,2 @@
+'CycloSub.fK_eq_orderOf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CycloSub.gK_mul_fK' depends on axioms: [propext, Classical.choice, Quot.sound]
