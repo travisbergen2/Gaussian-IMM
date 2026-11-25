@@ -142,3 +142,6 @@ name = "CyclotomicFrobenius"
 
 [[lean_lib]]
 name = "CyclotomicFrobeniusInstances"
+
+[[lean_lib]]
+name = "QuotientOrder"
