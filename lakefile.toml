@@ -163,3 +163,6 @@ name = "CharacterProduct"
 
 [[lean_lib]]
 name = "CyclotomicSubfieldEulerProduct"
+
+[[lean_lib]]
+name = "Cyclo7CubicField"

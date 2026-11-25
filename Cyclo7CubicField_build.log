@@ -1,0 +1,2 @@
+'Cyclo7Cubic.adjoin_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Cyclo7Cubic.minpoly_theta' depends on axioms: [propext, Classical.choice, Quot.sound]
