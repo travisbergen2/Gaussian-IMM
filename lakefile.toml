@@ -187,3 +187,6 @@ name = "CompositeCyclotomicEulerProduct"
 
 [[lean_lib]]
 name = "Cyclo20Biquadratic"
+
+[[lean_lib]]
+name = "QuotientCharacterEquiv"
