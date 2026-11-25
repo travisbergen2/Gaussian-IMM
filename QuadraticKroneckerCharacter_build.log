@@ -1,0 +1,4 @@
+Fresh clone of quadratic-discriminant, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine). lake build (72 libraries): Build completed successfully (18465 jobs), exit 0. verify.sh: ALL STAGES PASSED.
+ℹ [18463/18465] Built QuadraticKroneckerCharacter (17s)
+info: QuadraticKroneckerCharacter.lean:46:0: 'QuadKronecker.discr_isFundamental' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: QuadraticKroneckerCharacter.lean:47:0: 'QuadKronecker.zeta_eq_discr_character' depends on axioms: [propext, Classical.choice, Quot.sound]

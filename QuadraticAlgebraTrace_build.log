@@ -1,0 +1,7 @@
+Fresh clone of quadratic-discriminant, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine). lake build (72 libraries): Build completed successfully (18465 jobs), exit 0. verify.sh: ALL STAGES PASSED.
+⚠ [18454/18465] Built QuadraticAlgebraTrace (35s)
+warning: QuadraticAlgebraTrace.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: QuadraticAlgebraTrace.lean:42:0: 'QuadTrace.algebraTrace_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: QuadraticAlgebraTrace.lean:43:0: 'QuadTrace.discr_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18455/18465] Ran QuadraticAlgebraTrace:irArts
+warning: QuadraticAlgebraTrace.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
