@@ -250,3 +250,6 @@ name = "Cyclo9CubicEulerProduct"
 
 [[lean_lib]]
 name = "Cyclo9CubicDiscriminant"
+
+[[lean_lib]]
+name = "CubicGaussSumIdentity"
