@@ -184,3 +184,6 @@ name = "AbelianEulerProductLevels"
 
 [[lean_lib]]
 name = "CompositeCyclotomicEulerProduct"
+
+[[lean_lib]]
+name = "Cyclo20Biquadratic"
