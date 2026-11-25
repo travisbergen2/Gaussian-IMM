@@ -193,3 +193,6 @@ name = "QuotientCharacterEquiv"
 
 [[lean_lib]]
 name = "CyclotomicCharacterCorrespondence"
+
+[[lean_lib]]
+name = "ConductorCongruence"
