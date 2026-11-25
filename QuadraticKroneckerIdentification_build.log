@@ -1,0 +1,5 @@
+Fresh clone of kronecker-character, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine). lake build (75 libraries): Build completed successfully (18474 jobs), exit 0. verify.sh: ALL STAGES PASSED.
+ℹ [18472/18474] Built QuadraticKroneckerIdentification (19s)
+info: QuadraticKroneckerIdentification.lean:94:0: 'QuadKronId.primitive_eq_of_changeLevel' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: QuadraticKroneckerIdentification.lean:95:0: 'QuadKronId.chi_eq_kronecker' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: QuadraticKroneckerIdentification.lean:96:0: 'QuadKronId.dedekindZeta_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,13 @@
+Fresh clone of kronecker-character, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine). lake build (75 libraries): Build completed successfully (18474 jobs), exit 0. verify.sh: ALL STAGES PASSED.
+⚠ [18463/18474] Built KroneckerPrimitive (30s)
+warning: KroneckerPrimitive.lean:33:24: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: KroneckerPrimitive.lean:33:35: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: KroneckerPrimitive.lean:37:24: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: KroneckerPrimitive.lean:45:24: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: KroneckerPrimitive.lean:45:35: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: KroneckerPrimitive.lean:97:25: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: KroneckerPrimitive.lean:97:36: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: KroneckerPrimitive.lean:108:25: `if_pos` has been deprecated: Use `ite_eq_left` instead
+info: KroneckerPrimitive.lean:219:0: 'KroneckerPrim.witness_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: KroneckerPrimitive.lean:220:0: 'KroneckerPrim.witness_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: KroneckerPrimitive.lean:221:0: 'KroneckerPrim.conductor_kronecker' depends on axioms: [propext, Classical.choice, Quot.sound]

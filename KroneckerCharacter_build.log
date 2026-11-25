@@ -1,0 +1,25 @@
+Fresh clone of kronecker-character, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine). lake build (75 libraries): Build completed successfully (18474 jobs), exit 0. verify.sh: ALL STAGES PASSED.
+⚠ [18460/18474] Built KroneckerCharacter (32s)
+warning: KroneckerCharacter.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: KroneckerCharacter.lean:74:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: KroneckerCharacter.lean:75:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: KroneckerCharacter.lean:82:80: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: KroneckerCharacter.lean:85:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: KroneckerCharacter.lean:97:10: Unused tactic linter: `exact h2` does not change the goal.
+warning: KroneckerCharacter.lean:166:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: KroneckerCharacter.lean:166:43: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: KroneckerCharacter.lean:167:57: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: KroneckerCharacter.lean:178:32: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: KroneckerCharacter.lean:195:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: KroneckerCharacter.lean:195:43: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: KroneckerCharacter.lean:196:60: `if_neg` has been deprecated: Use `ite_eq_right` instead
+info: KroneckerCharacter.lean:208:0: 'Kronecker.jacobiChar' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: KroneckerCharacter.lean:209:0: 'Kronecker.jacobi_int_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: KroneckerCharacter.lean:210:0: 'Kronecker.kronecker' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: KroneckerCharacter.lean:211:0: 'Kronecker.kronecker_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: KroneckerCharacter.lean:212:0: 'Kronecker.kronecker_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18461/18474] Ran KroneckerCharacter:irArts
+warning: KroneckerCharacter.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+ℹ [18469/18474] Built QuadraticKroneckerCharacter (19s)
+info: QuadraticKroneckerCharacter.lean:46:0: 'QuadKronecker.discr_isFundamental' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: QuadraticKroneckerCharacter.lean:47:0: 'QuadKronecker.zeta_eq_discr_character' depends on axioms: [propext, Classical.choice, Quot.sound]
