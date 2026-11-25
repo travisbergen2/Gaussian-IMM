@@ -169,3 +169,6 @@ name = "Cyclo7CubicField"
 
 [[lean_lib]]
 name = "SubfieldInertia"
+
+[[lean_lib]]
+name = "CyclotomicDecomposition"
