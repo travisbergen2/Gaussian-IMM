@@ -1,0 +1,8 @@
+Fresh clone of quotient-characters, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine). lake build (60 libraries): Build completed successfully (18429 jobs), exit 0. verify.sh: ALL STAGES PASSED.
+⚠ [18418/18429] Built QuotientCharacterEquiv (37s)
+warning: QuotientCharacterEquiv.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: QuotientCharacterEquiv.lean:88:0: 'QuotChar.equiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: QuotientCharacterEquiv.lean:89:0: 'QuotChar.well_defined' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: QuotientCharacterEquiv.lean:90:0: 'QuotChar.card_annihilator' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18419/18429] Ran QuotientCharacterEquiv:irArts
+warning: QuotientCharacterEquiv.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
