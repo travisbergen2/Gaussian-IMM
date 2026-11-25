@@ -154,3 +154,6 @@ name = "SubfieldRamified"
 
 [[lean_lib]]
 name = "CyclotomicSubfieldSplitting"
+
+[[lean_lib]]
+name = "Cyclo7Cubic"

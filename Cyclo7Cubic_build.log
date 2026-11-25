@@ -1,0 +1,3 @@
+'Cyclo7Cubic.finrank_K' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Cyclo7Cubic.hloc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Cyclo7Cubic.LSeries_A_eq_zeta_mul_L2' depends on axioms: [propext, Classical.choice, Quot.sound]
