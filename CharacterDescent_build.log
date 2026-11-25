@@ -1,0 +1,2 @@
+'CharDescent.card_eq_card_inf_ker_mul_card_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CharDescent.prod_perpN' depends on axioms: [propext, Classical.choice, Quot.sound]

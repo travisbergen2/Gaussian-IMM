@@ -172,3 +172,6 @@ name = "SubfieldInertia"
 
 [[lean_lib]]
 name = "CyclotomicDecomposition"
+
+[[lean_lib]]
+name = "CharacterDescent"
