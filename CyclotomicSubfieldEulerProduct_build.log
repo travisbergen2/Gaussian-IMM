@@ -1,0 +1,4 @@
+  omit hp in theorem ...
+'CycloSubEuler.local_unramified' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CycloSubEuler.LSeries_eq_zeta_mul_prod_perp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CycloSubEuler.LSeries_eq_prod_perp_primePow' depends on axioms: [propext, Classical.choice, Quot.sound]
