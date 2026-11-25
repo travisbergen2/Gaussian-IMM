@@ -232,3 +232,6 @@ name = "QuadraticKroneckerCharacter"
 
 [[lean_lib]]
 name = "KroneckerCharacter"
+
+[[lean_lib]]
+name = "KroneckerPrimitive"
