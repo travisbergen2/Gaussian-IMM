@@ -208,3 +208,6 @@ name = "CyclotomicSqrt"
 
 [[lean_lib]]
 name = "QuadraticKroneckerWeber"
+
+[[lean_lib]]
+name = "DedekindZetaIsomorphism"
