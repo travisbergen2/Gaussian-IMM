@@ -148,3 +148,6 @@ name = "QuotientOrder"
 
 [[lean_lib]]
 name = "SubfieldResidueDegree"
+
+[[lean_lib]]
+name = "SubfieldRamified"
