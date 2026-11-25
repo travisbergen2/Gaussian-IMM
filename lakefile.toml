@@ -211,3 +211,6 @@ name = "QuadraticKroneckerWeber"
 
 [[lean_lib]]
 name = "DedekindZetaIsomorphism"
+
+[[lean_lib]]
+name = "QuadraticZeta"
