@@ -220,3 +220,6 @@ name = "QuadraticFrobeniusSign"
 
 [[lean_lib]]
 name = "QuadraticCharacterIdentification"
+
+[[lean_lib]]
+name = "QuadraticAlgebraTrace"
