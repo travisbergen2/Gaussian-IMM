@@ -1,0 +1,1 @@
+'GaloisEuler.LSeries_A_eq_zeta_mul_prod_levels' depends on axioms: [propext, Classical.choice, Quot.sound]

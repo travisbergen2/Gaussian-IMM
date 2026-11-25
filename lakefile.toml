@@ -178,3 +178,6 @@ name = "CharacterDescent"
 
 [[lean_lib]]
 name = "CompositeLocalFactor"
+
+[[lean_lib]]
+name = "AbelianEulerProductLevels"
