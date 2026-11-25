@@ -1,0 +1,10 @@
+Fresh clone of cubic-kummer, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine). lake build (80 libraries): Build completed successfully (18489 jobs), exit 0. verify.sh: ALL STAGES PASSED.
+warning: CubicGaussSumIdentity.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: CubicGaussSumIdentity.lean:133:0: 'CubicGauss.gaussSum_cube_zmod' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicGaussSumIdentity.lean:134:0: 'CubicGauss.exists_cubic_char' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicGaussSumIdentity.lean:135:0: 'CubicGauss.gauss_jacobi' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicGaussSumIdentity.lean:136:0: 'CubicGauss.gauss_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicGaussSumIdentity.lean:137:0: 'CubicGauss.gaussSum_cube' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicGaussSumIdentity.lean:138:0: 'CubicGauss.jacobiSum_primary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicGaussSumIdentity.lean:139:0: 'CubicGauss.normSq_jacobiSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+warning: CubicGaussSumIdentity.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
