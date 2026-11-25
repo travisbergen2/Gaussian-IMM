@@ -1,0 +1,2 @@
+'CompositeLocal.fK_gK_ramified' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CompositeLocal.local_ramified' depends on axioms: [propext, Classical.choice, Quot.sound]

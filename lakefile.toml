@@ -175,3 +175,6 @@ name = "CyclotomicDecomposition"
 
 [[lean_lib]]
 name = "CharacterDescent"
+
+[[lean_lib]]
+name = "CompositeLocalFactor"
