@@ -229,3 +229,6 @@ name = "QuadraticFieldDiscriminant"
 
 [[lean_lib]]
 name = "QuadraticKroneckerCharacter"
+
+[[lean_lib]]
+name = "KroneckerCharacter"
