@@ -1,0 +1,5 @@
+Fresh clone of quadratic-character, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine). lake build (69 libraries): Build completed successfully (18456 jobs), exit 0. verify.sh: ALL STAGES PASSED.
+⚠ [18445/18456] Built QuadraticFrobeniusSign (31s)
+warning: QuadraticFrobeniusSign.lean:137:6: Unused tactic linter: `rfl` does not change the goal.
+info: QuadraticFrobeniusSign.lean:143:0: 'QuadFrobSign.sgnHom' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: QuadraticFrobeniusSign.lean:144:0: 'QuadFrobSign.sgn_sigmaP' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+Fresh clone of quadratic-character, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine). lake build (69 libraries): Build completed successfully (18456 jobs), exit 0. verify.sh: ALL STAGES PASSED.
+ℹ [18454/18456] Built QuadraticCharacterIdentification (20s)
+info: QuadraticCharacterIdentification.lean:167:0: 'QuadCharId.perp_eq_epsD' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: QuadraticCharacterIdentification.lean:168:0: 'QuadCharId.epsD_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: QuadraticCharacterIdentification.lean:169:0: 'QuadCharId.exists_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: QuadraticCharacterIdentification.lean:170:0: 'QuadCharId.quadratic_zeta_legendre' depends on axioms: [propext, Classical.choice, Quot.sound]
