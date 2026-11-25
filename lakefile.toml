@@ -196,3 +196,6 @@ name = "CyclotomicCharacterCorrespondence"
 
 [[lean_lib]]
 name = "ConductorCongruence"
+
+[[lean_lib]]
+name = "Cyclo20Conductors"
