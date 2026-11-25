@@ -226,3 +226,6 @@ name = "QuadraticAlgebraTrace"
 
 [[lean_lib]]
 name = "QuadraticFieldDiscriminant"
+
+[[lean_lib]]
+name = "QuadraticKroneckerCharacter"
