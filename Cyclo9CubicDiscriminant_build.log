@@ -1,0 +1,15 @@
+Fresh clone of cyclic-cubic, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine). lake build (79 libraries): Build completed successfully (18486 jobs), exit 0. verify.sh: ALL STAGES PASSED.
+warning: Cyclo9CubicDiscriminant.lean:120:15: This simp argument is unused:
+warning: Cyclo9CubicDiscriminant.lean:120:31: This simp argument is unused:
+warning: Cyclo9CubicDiscriminant.lean:121:24: This simp argument is unused:
+warning: Cyclo9CubicDiscriminant.lean:121:83: This simp argument is unused:
+warning: Cyclo9CubicDiscriminant.lean:122:50: This simp argument is unused:
+warning: Cyclo9CubicDiscriminant.lean:122:59: This simp argument is unused:
+warning: Cyclo9CubicDiscriminant.lean:139:48: This simp argument is unused:
+warning: Cyclo9CubicDiscriminant.lean:145:44: This simp argument is unused:
+warning: Cyclo9CubicDiscriminant.lean:145:53: This simp argument is unused:
+warning: Cyclo9CubicDiscriminant.lean:147:23: This simp argument is unused:
+info: Cyclo9CubicDiscriminant.lean:219:0: 'EisCubic.discr_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Cyclo9CubicDiscriminant.lean:220:0: 'EisCubic.isIntegralClosure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Cyclo9CubicDiscriminant.lean:221:0: 'EisCubic.discr_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Cyclo9CubicDiscriminant.lean:222:0: 'Cyclo9Cubic.discr_K' depends on axioms: [propext, Classical.choice, Quot.sound]
