@@ -241,3 +241,6 @@ name = "QuadraticKroneckerIdentification"
 
 [[lean_lib]]
 name = "Cyclo9CubicField"
+
+[[lean_lib]]
+name = "Cyclo9CubicRamification"
