@@ -235,3 +235,6 @@ name = "KroneckerCharacter"
 
 [[lean_lib]]
 name = "KroneckerPrimitive"
+
+[[lean_lib]]
+name = "QuadraticKroneckerIdentification"
