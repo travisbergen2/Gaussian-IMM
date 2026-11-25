@@ -1,0 +1,11 @@
+Fresh clone of cubic-kummer, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine). lake build (82 libraries): Build completed successfully (18495 jobs), exit 0. verify.sh: ALL STAGES PASSED.
+warning: EisensteinJacobiPrime.lean:79:0: automatically included section variable(s) unused in theorem `EisJacobi.jacobiSum_mul_conj`:
+warning: EisensteinJacobiPrime.lean:95:0: automatically included section variable(s) unused in theorem `EisJacobi.isIntegral_jacobiSum`:
+warning: EisensteinJacobiPrime.lean:128:40: This simp argument is unused:
+warning: EisensteinJacobiPrime.lean:128:49: This simp argument is unused:
+warning: EisensteinJacobiPrime.lean:128:58: This simp argument is unused:
+info: EisensteinJacobiPrime.lean:133:0: 'EisJacobi.prime_of_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: EisensteinJacobiPrime.lean:134:0: 'EisJacobi.norm_jacobiSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: EisensteinJacobiPrime.lean:135:0: 'EisJacobi.J_mul_conj' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: EisensteinJacobiPrime.lean:136:0: 'EisJacobi.J_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: EisensteinJacobiPrime.lean:137:0: 'EisJacobi.J_primary' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,9 @@
+Fresh clone of cubic-kummer, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine). lake build (82 libraries): Build completed successfully (18495 jobs), exit 0. verify.sh: ALL STAGES PASSED.
+warning: CubicKummerCyclotomicContainment.lean:77:0: automatically included section variable(s) unused in theorem `CubicKummer.pow_mod_q`:
+warning: CubicKummerCyclotomicContainment.lean:182:10: `X_pow_sub_C_irreducible_of_prime` has been deprecated: Use `irreducible_X_pow_sub_C_of_prime` instead
+info: CubicKummerCyclotomicContainment.lean:212:0: 'CubicKummer.exists_chi' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicKummerCyclotomicContainment.lean:213:0: 'CubicKummer.gauss_cube' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicKummerCyclotomicContainment.lean:214:0: 'CubicKummer.g_not_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicKummerCyclotomicContainment.lean:215:0: 'CubicKummer.cube_roots' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicKummerCyclotomicContainment.lean:216:0: 'CubicKummer.minpoly_g' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicKummerCyclotomicContainment.lean:217:0: 'CubicKummer.finrank_kummer' depends on axioms: [propext, Classical.choice, Quot.sound]
