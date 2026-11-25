@@ -1,0 +1,1 @@
+'SubfieldDeg.inertiaDegIn_mul_card_inf' depends on axioms: [propext, Classical.choice, Quot.sound]

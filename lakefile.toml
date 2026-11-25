@@ -145,3 +145,6 @@ name = "CyclotomicFrobeniusInstances"
 
 [[lean_lib]]
 name = "QuotientOrder"
+
+[[lean_lib]]
+name = "SubfieldResidueDegree"
