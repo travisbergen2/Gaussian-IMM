@@ -1,0 +1,7 @@
+Fresh clone of quadratic-kronecker-weber, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine). lake build (65 libraries): Build completed successfully (18444 jobs), exit 0. verify.sh: ALL STAGES PASSED.
+⚠ [18436/18444] Built CyclotomicSqrt (27s)
+warning: CyclotomicSqrt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: CyclotomicSqrt.lean:103:0: 'CycloSqrt.sq_odd_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CyclotomicSqrt.lean:104:0: 'CycloSqrt.exists_sq_int' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18437/18444] Ran CyclotomicSqrt:irArts
+warning: CyclotomicSqrt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file

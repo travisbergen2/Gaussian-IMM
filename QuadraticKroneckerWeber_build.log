@@ -1,0 +1,6 @@
+Fresh clone of quadratic-kronecker-weber, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine). lake build (65 libraries): Build completed successfully (18444 jobs), exit 0. verify.sh: ALL STAGES PASSED.
+⚠ [18442/18444] Built QuadraticKroneckerWeber (33s)
+warning: QuadraticKroneckerWeber.lean:58:27: `if_neg` has been deprecated: Use `ite_eq_right` instead
+info: QuadraticKroneckerWeber.lean:117:0: 'QuadKW.exists_embedding' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: QuadraticKroneckerWeber.lean:118:0: 'QuadKW.quadratic_kronecker_weber' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: QuadraticKroneckerWeber.lean:119:0: 'QuadKW.quadratic_kronecker_weber_cyclotomicField' depends on axioms: [propext, Classical.choice, Quot.sound]
