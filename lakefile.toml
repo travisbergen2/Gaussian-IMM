@@ -247,3 +247,6 @@ name = "Cyclo9CubicRamification"
 
 [[lean_lib]]
 name = "Cyclo9CubicEulerProduct"
+
+[[lean_lib]]
+name = "Cyclo9CubicDiscriminant"
