@@ -181,3 +181,6 @@ name = "CompositeLocalFactor"
 
 [[lean_lib]]
 name = "AbelianEulerProductLevels"
+
+[[lean_lib]]
+name = "CompositeCyclotomicEulerProduct"

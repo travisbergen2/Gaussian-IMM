@@ -1,0 +1,2 @@
+'CompositeEuler.hloc_composite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CompositeEuler.LSeries_eq_zeta_mul_prod_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]
