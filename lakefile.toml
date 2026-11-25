@@ -157,3 +157,6 @@ name = "CyclotomicSubfieldSplitting"
 
 [[lean_lib]]
 name = "Cyclo7Cubic"
+
+[[lean_lib]]
+name = "CharacterProduct"

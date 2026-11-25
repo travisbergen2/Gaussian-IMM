@@ -1,0 +1,2 @@
+'CharProd.prod_one_sub_char' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CharProd.prod_one_sub_perp' depends on axioms: [propext, Classical.choice, Quot.sound]
