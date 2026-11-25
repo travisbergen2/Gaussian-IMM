@@ -214,3 +214,6 @@ name = "DedekindZetaIsomorphism"
 
 [[lean_lib]]
 name = "QuadraticZeta"
+
+[[lean_lib]]
+name = "QuadraticFrobeniusSign"
