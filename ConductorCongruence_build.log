@@ -1,0 +1,7 @@
+Fresh clone of galois-character-product, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine). lake build (63 libraries): Build completed successfully (18438 jobs), exit 0. verify.sh: ALL STAGES PASSED.
+⚠ [18421/18438] Built ConductorCongruence (27s)
+warning: ConductorCongruence.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: ConductorCongruence.lean:38:0: 'CondCong.eq_of_modEq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConductorCongruence.lean:39:0: 'CondCong.not_factorsThrough' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18422/18438] Ran ConductorCongruence:irArts
+warning: ConductorCongruence.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file

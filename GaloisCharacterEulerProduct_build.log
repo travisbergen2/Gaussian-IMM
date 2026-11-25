@@ -1,0 +1,5 @@
+Fresh clone of galois-character-product, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine). lake build (63 libraries): Build completed successfully (18438 jobs), exit 0. verify.sh: ALL STAGES PASSED.
+ℹ [18430/18438] Built GaloisCharacterEulerProduct (25s)
+info: GaloisCharacterEulerProduct.lean:56:0: 'GaloisCharEuler.finite_galChar' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaloisCharacterEulerProduct.lean:57:0: 'GaloisCharEuler.LSeries_primitive_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaloisCharacterEulerProduct.lean:58:0: 'GaloisCharEuler.LSeries_eq_prod_galChar' depends on axioms: [propext, Classical.choice, Quot.sound]

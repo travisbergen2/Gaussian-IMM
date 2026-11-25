@@ -1,0 +1,8 @@
+Fresh clone of galois-character-product, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine). lake build (63 libraries): Build completed successfully (18438 jobs), exit 0. verify.sh: ALL STAGES PASSED.
+⚠ [18436/18438] Built Cyclo20Conductors (15s)
+warning: Cyclo20Conductors.lean:23:59: this tactic is never executed
+warning: Cyclo20Conductors.lean:23:55: Unused tactic linter: `<;>` can be removed.
+warning: Cyclo20Conductors.lean:23:59: Unused tactic linter: `decide` is never executed.
+info: Cyclo20Conductors.lean:82:0: 'Cyclo20.conductor_chiM4' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Cyclo20Conductors.lean:83:0: 'Cyclo20.conductor_chi5' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Cyclo20Conductors.lean:84:0: 'Cyclo20.conductor_chiM20' depends on axioms: [propext, Classical.choice, Quot.sound]
