@@ -256,3 +256,6 @@ name = "CubicGaussSumIdentity"
 
 [[lean_lib]]
 name = "EisensteinJacobiPrime"
+
+[[lean_lib]]
+name = "CubicKummerCyclotomicContainment"
