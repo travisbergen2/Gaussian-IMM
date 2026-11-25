@@ -190,3 +190,6 @@ name = "Cyclo20Biquadratic"
 
 [[lean_lib]]
 name = "QuotientCharacterEquiv"
+
+[[lean_lib]]
+name = "CyclotomicCharacterCorrespondence"
