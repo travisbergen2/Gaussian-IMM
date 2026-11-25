@@ -238,3 +238,6 @@ name = "KroneckerPrimitive"
 
 [[lean_lib]]
 name = "QuadraticKroneckerIdentification"
+
+[[lean_lib]]
+name = "Cyclo9CubicField"
