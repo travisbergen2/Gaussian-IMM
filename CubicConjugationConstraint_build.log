@@ -1,0 +1,7 @@
+Lean v4.36.0, Mathlib fc4f59e5, cubic-kronecker-weber clone (all 90 libraries; 4.36 fix: maxHeartbeats 1000000 on conj_constraint)
+⚠ [18258/18260] Replayed CubicConjugationConstraint
+warning: CubicConjugationConstraint.lean:62:6: this tactic is never executed
+warning: CubicConjugationConstraint.lean:62:6: Unused tactic linter: `rw [Nat.card_eq_fintype_card, IsGalois.card_aut_eq_finrank, hdeg]` is never executed.
+info: CubicConjugationConstraint.lean:142:0: 'CubicConj.conj_constraint' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (18260 jobs).
+EXIT 0

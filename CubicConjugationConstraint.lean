@@ -29,6 +29,7 @@ theorem conj_ω : starRingEnd ℂ ω = ω ^ 2 := by
 
 variable (K : IntermediateField ℚ ℂ) [IsGalois ℚ K] (hK : finrank ℚ K = 3)
 
+set_option maxHeartbeats 1000000 in
 include hK in
 /-- **ā = δ³ · a²**, δ ∈ F nonzero, for the Kummer radicand a = β³ of M = K(ω) = ℚ(ω, β). -/
 theorem conj_constraint : ∃ β : ℂ, β ∈ M K ∧ β ^ 3 ∈ F ∧ β ∉ F ∧ M K = ℚ⟮ω, β⟯ ∧
