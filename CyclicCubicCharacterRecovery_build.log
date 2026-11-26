@@ -1,0 +1,9 @@
+Lean v4.36.0, Mathlib fc4f59e5, cubic-kronecker-weber clone (all 95 libraries)
+warning: CyclicCubicCharacterRecovery.lean:51:0: automatically included section variable(s) unused in theorem `CubicRecovery.fixedField_H`:
+warning: CyclicCubicCharacterRecovery.lean:57:0: automatically included section variable(s) unused in theorem `CubicRecovery.mem_H`:
+warning: CyclicCubicCharacterRecovery.lean:90:0: automatically included section variable(s) unused in theorem `CubicRecovery.sq_mem`:
+info: CyclicCubicCharacterRecovery.lean:260:0: 'CubicRecovery.perpNontriv_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CyclicCubicCharacterRecovery.lean:261:0: 'CubicRecovery.le_cyc_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CyclicCubicCharacterRecovery.lean:262:0: 'CubicRecovery.character_recovery' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (18534 jobs).
+EXIT 0
