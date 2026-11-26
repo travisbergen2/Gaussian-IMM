@@ -1,0 +1,8 @@
+Fresh clone of cubic-assembly, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine). lake build (85 libraries): Build completed successfully (18504 jobs), exit 0. verify.sh: ALL STAGES PASSED.
+warning: ConductorProduct.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: ConductorProduct.lean:153:0: 'CondProd.conductor_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConductorProduct.lean:154:0: 'CondProd.dvd_conductor_of_component' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConductorProduct.lean:155:0: 'CondProd.conductor_mulLift' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConductorProduct.lean:156:0: 'CondProd.isPrimitive_mulLift' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConductorProduct.lean:157:0: 'CondProd.mulLift_pow_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+warning: ConductorProduct.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
