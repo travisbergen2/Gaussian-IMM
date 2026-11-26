@@ -268,3 +268,6 @@ name = "CubicKummerConductor"
 
 [[lean_lib]]
 name = "ConductorProduct"
+
+[[lean_lib]]
+name = "CubicCharacterAssembly"
