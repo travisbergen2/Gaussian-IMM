@@ -1,0 +1,8 @@
+Lean v4.36.0, Mathlib fc4f59e5, cubic-kronecker-weber clone (all 91 libraries)
+info: CubicRadicandValuation.lean:185:0: 'CubicVal.val_constraint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicRadicandValuation.lean:186:0: 'CubicVal.three_dvd_of_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicRadicandValuation.lean:187:0: 'CubicVal.kappa_lambda' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicRadicandValuation.lean:188:0: 'CubicVal.integral_radicand' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicRadicandValuation.lean:189:0: 'CubicVal.radicand_valuations' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (18522 jobs).
+EXIT 0
