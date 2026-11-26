@@ -295,3 +295,6 @@ name = "CubicRadicandReconstruction"
 
 [[lean_lib]]
 name = "CubicKroneckerWeber"
+
+[[lean_lib]]
+name = "CyclicCubicCharacterRecovery"
