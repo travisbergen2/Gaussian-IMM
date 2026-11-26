@@ -304,3 +304,6 @@ name = "CyclicCubicIntrinsicPair"
 
 [[lean_lib]]
 name = "CyclicCubicEmbeddingClass"
+
+[[lean_lib]]
+name = "CyclicCubicCharacterBijection"
