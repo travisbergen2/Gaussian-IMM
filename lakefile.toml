@@ -289,3 +289,6 @@ name = "CubicRadicandValuation"
 
 [[lean_lib]]
 name = "CubicJacobiPrimeMatching"
+
+[[lean_lib]]
+name = "CubicRadicandReconstruction"
