@@ -112,6 +112,7 @@ include hq3 hχ in
 theorem finrank_E : Module.finrank ℚ (E χ) = 6 := by
   rw [E, ← adjoin_simple_adjoin_simple]
   show Module.finrank ℚ (K₀⟮gaussSum χ (ψ (q := q) (L := L))⟯) = 6
+  have : Module.Free K₀ (K₀⟮gaussSum χ (ψ (q := q) (L := L))⟯) := Module.Free.of_divisionRing _ _
   rw [← Module.finrank_mul_finrank ℚ K₀, finrank_K₀, finrank_kummer hq3 hχ]
 
 theorem ω_mem_E : (ω (q := q) (L := L)) ∈ E χ := subset_adjoin _ _ (by simp)

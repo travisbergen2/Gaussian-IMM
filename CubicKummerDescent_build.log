@@ -1,0 +1,12 @@
+Fresh clone of cubic-kummer, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine). lake build (83 libraries): Build completed successfully, exit 0. verify.sh: ALL STAGES PASSED.
+warning: CubicKummerDescent.lean:30:0: automatically included section variable(s) unused in theorem `CubicDescent.q_dvd`:
+warning: CubicKummerDescent.lean:52:0: automatically included section variable(s) unused in theorem `CubicDescent.card_range`:
+warning: CubicKummerDescent.lean:64:6: this tactic is never executed
+warning: CubicKummerDescent.lean:64:6: Unused tactic linter: `(rw [Nat.card_eq_fintype_card];
+warning: CubicKummerDescent.lean:123:0: automatically included section variable(s) unused in theorem `CubicDescent.fixing_E_le`:
+info: CubicKummerDescent.lean:190:0: 'CubicDescent.index_Hq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicKummerDescent.lean:191:0: 'CubicDescent.finrank_Kq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicKummerDescent.lean:192:0: 'CubicDescent.isCyclic_Kq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicKummerDescent.lean:193:0: 'CubicDescent.finrank_E' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicKummerDescent.lean:194:0: 'CubicDescent.Kq_le_E' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicKummerDescent.lean:195:0: 'CubicDescent.E_eq_sup' depends on axioms: [propext, Classical.choice, Quot.sound]
