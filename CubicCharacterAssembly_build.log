@@ -1,0 +1,24 @@
+Fresh clone, Lean v4.36.0, Mathlib fc4f59e5, all 86 libraries
+⚠ [18499/18507] Built CubicCharacterAssembly (32s)
+warning: CubicCharacterAssembly.lean:93:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: CubicCharacterAssembly.lean:97:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: CubicCharacterAssembly.lean:97:55: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: CubicCharacterAssembly.lean:97:66: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: CubicCharacterAssembly.lean:99:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: CubicCharacterAssembly.lean:99:63: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: CubicCharacterAssembly.lean:100:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: CubicCharacterAssembly.lean:100:63: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: CubicCharacterAssembly.lean:101:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: CubicCharacterAssembly.lean:101:63: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: CubicCharacterAssembly.lean:107:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: CubicCharacterAssembly.lean:112:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: CubicCharacterAssembly.lean:122:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: CubicCharacterAssembly.lean:165:35: `if_false` has been deprecated: Use `ite_false` instead
+warning: CubicCharacterAssembly.lean:169:15: `if_true` has been deprecated: Use `ite_true` instead
+info: CubicCharacterAssembly.lean:183:0: 'CubicAssembly.hasPrimCubic_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicCharacterAssembly.lean:184:0: 'CubicAssembly.hasPrimCubic_list' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicCharacterAssembly.lean:185:0: 'CubicAssembly.hasPrimCubic_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicCharacterAssembly.lean:186:0: 'CubicAssembly.hasPrimCubic_nine' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicCharacterAssembly.lean:187:0: 'CubicAssembly.hasPrimCubic_conductor' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (18507 jobs).
+EXIT 0
