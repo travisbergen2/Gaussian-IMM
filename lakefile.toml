@@ -262,3 +262,6 @@ name = "CubicKummerCyclotomicContainment"
 
 [[lean_lib]]
 name = "CubicKummerDescent"
+
+[[lean_lib]]
+name = "CubicKummerConductor"
