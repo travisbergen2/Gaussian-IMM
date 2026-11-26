@@ -1,0 +1,8 @@
+Fresh clone of cubic-kummer, Lean v4.36.0, Mathlib fc4f59e5, Claude cloud session (not Travis's machine). lake build (84 libraries): Build completed successfully (18501 jobs), exit 0. verify.sh: ALL STAGES PASSED.
+warning: CubicKummerConductor.lean:44:0: automatically included section variable(s) unused in theorem `CubicConductor.cube_mem`:
+warning: CubicKummerConductor.lean:111:0: automatically included section variable(s) unused in theorem `CubicConductor.conductor_eq_q`:
+info: CubicKummerConductor.lean:229:0: 'CubicConductor.perpNontriv_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicKummerConductor.lean:230:0: 'CubicConductor.ker_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicKummerConductor.lean:231:0: 'CubicConductor.conductor_eq_q' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicKummerConductor.lean:232:0: 'CubicConductor.unramified_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicKummerConductor.lean:233:0: 'CubicConductor.zeta_Kq' depends on axioms: [propext, Classical.choice, Quot.sound]
