@@ -277,3 +277,6 @@ name = "CubicCharacterFixedField"
 
 [[lean_lib]]
 name = "CubicConductorClassification"
+
+[[lean_lib]]
+name = "CubicKummerRepresentation"
