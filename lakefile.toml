@@ -298,3 +298,6 @@ name = "CubicKroneckerWeber"
 
 [[lean_lib]]
 name = "CyclicCubicCharacterRecovery"
+
+[[lean_lib]]
+name = "CyclicCubicIntrinsicPair"
