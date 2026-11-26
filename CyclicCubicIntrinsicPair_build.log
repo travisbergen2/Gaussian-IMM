@@ -1,0 +1,8 @@
+Lean v4.36.0, Mathlib fc4f59e5, cubic-kronecker-weber clone (all 96 libraries)
+⚠ [18535/18537] Built CyclicCubicIntrinsicPair (277s)
+warning: CyclicCubicIntrinsicPair.lean:47:2: Try this: 
+warning: CyclicCubicIntrinsicPair.lean:48:2: Try this: 
+info: CyclicCubicIntrinsicPair.lean:218:0: 'CubicIntrinsic.compat' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CyclicCubicIntrinsicPair.lean:219:0: 'CubicIntrinsic.intrinsic_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (18537 jobs).
+EXIT 0
