@@ -271,3 +271,6 @@ name = "ConductorProduct"
 
 [[lean_lib]]
 name = "CubicCharacterAssembly"
+
+[[lean_lib]]
+name = "CubicCharacterFixedField"
