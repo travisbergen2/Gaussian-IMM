@@ -265,3 +265,6 @@ name = "CubicKummerDescent"
 
 [[lean_lib]]
 name = "CubicKummerConductor"
+
+[[lean_lib]]
+name = "ConductorProduct"
