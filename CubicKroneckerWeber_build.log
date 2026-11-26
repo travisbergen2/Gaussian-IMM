@@ -1,0 +1,5 @@
+Lean v4.36.0, Mathlib fc4f59e5, cubic-kronecker-weber clone (all 94 libraries)
+info: CubicKroneckerWeber.lean:145:0: 'CubicKW.gaussSum_inCyc' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicKroneckerWeber.lean:146:0: 'CubicKW.cubic_kronecker_weber' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (18531 jobs).
+EXIT 0
