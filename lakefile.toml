@@ -259,3 +259,6 @@ name = "EisensteinJacobiPrime"
 
 [[lean_lib]]
 name = "CubicKummerCyclotomicContainment"
+
+[[lean_lib]]
+name = "CubicKummerDescent"
