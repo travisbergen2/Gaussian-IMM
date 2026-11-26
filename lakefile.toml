@@ -292,3 +292,6 @@ name = "CubicJacobiPrimeMatching"
 
 [[lean_lib]]
 name = "CubicRadicandReconstruction"
+
+[[lean_lib]]
+name = "CubicKroneckerWeber"
