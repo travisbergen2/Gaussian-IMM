@@ -1,0 +1,9 @@
+Lean v4.36.0, Mathlib fc4f59e5, cubic-assembly clone (all 87 libraries)
+info: CubicCharacterFixedField.lean:209:0: 'CubicFixedField.index_H' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicCharacterFixedField.lean:210:0: 'CubicFixedField.isCyclic_K' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicCharacterFixedField.lean:211:0: 'CubicFixedField.perpNontriv_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicCharacterFixedField.lean:212:0: 'CubicFixedField.conductor_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicCharacterFixedField.lean:213:0: 'CubicFixedField.zeta_K' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicCharacterFixedField.lean:214:0: 'CubicFixedField.exists_cyclic_cubic' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (18510 jobs).
+EXIT 0
