@@ -1,0 +1,6 @@
+Lean v4.36.0, Mathlib fc4f59e5, cubic-kronecker-weber clone (all 93 libraries)
+info: CubicRadicandReconstruction.lean:242:0: 'CubicRecon.reconstruct' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicRadicandReconstruction.lean:243:0: 'CubicRecon.gauss_realization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicRadicandReconstruction.lean:244:0: 'CubicRecon.radicand_cube_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (18528 jobs).
+EXIT 0
