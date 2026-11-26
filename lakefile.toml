@@ -280,3 +280,6 @@ name = "CubicConductorClassification"
 
 [[lean_lib]]
 name = "CubicKummerRepresentation"
+
+[[lean_lib]]
+name = "CubicConjugationConstraint"
