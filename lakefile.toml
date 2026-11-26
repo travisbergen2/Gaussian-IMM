@@ -283,3 +283,6 @@ name = "CubicKummerRepresentation"
 
 [[lean_lib]]
 name = "CubicConjugationConstraint"
+
+[[lean_lib]]
+name = "CubicRadicandValuation"
