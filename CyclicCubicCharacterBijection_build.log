@@ -1,0 +1,10 @@
+Lean v4.36.0, Mathlib fc4f59e5, cubic-kronecker-weber clone (all 98 libraries)
+warning: CyclicCubicEmbeddingClass.lean:47:0: automatically included section variable(s) unused in theorem `GaloisEmbedding.finrank_range`:
+info: CyclicCubicEmbeddingClass.lean:68:0: 'GaloisEmbedding.fieldRange_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CyclicCubicEmbeddingClass.lean:69:0: 'GaloisEmbedding.iso_iff_range_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CyclicCubicCharacterBijection.lean:216:0: 'CubicBijection.KΨ_eq_of_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CyclicCubicCharacterBijection.lean:217:0: 'CubicBijection.fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CyclicCubicCharacterBijection.lean:218:0: 'CubicBijection.classification' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CyclicCubicCharacterBijection.lean:219:0: 'CubicBijection.abstract_classification' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (18543 jobs).
+EXIT 0
