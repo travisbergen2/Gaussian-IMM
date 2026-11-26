@@ -1,0 +1,15 @@
+Lean v4.36.0, Mathlib fc4f59e5, cubic-kronecker-weber clone (all 89 libraries; 4.36 fix: explicit Module.Free instance)
+✖ [18514/18516] Building CubicKummerRepresentation (70s)
+trace: .> LEAN_PATH=/tmp/fca/.lake/packages/Cli/.lake/build/lib/lean:/tmp/fca/.lake/packages/batteries/.lake/build/lib/lean:/tmp/fca/.lake/packages/Qq/.lake/build/lib/lean:/tmp/fca/.lake/packages/aesop/.lake/build/lib/lean:/tmp/fca/.lake/packages/proofwidgets/.lake/build/lib/lean:/tmp/fca/.lake/packages/importGraph/.lake/build/lib/lean:/tmp/fca/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/tmp/fca/.lake/packages/plausible/.lake/build/lib/lean:/tmp/fca/.lake/packages/mathlib/.lake/build/lib/lean:/tmp/fca/.lake/build/lib/lean /root/.elan/toolchains/leanprover--lean4---v4.36.0/bin/lean /tmp/fca/CubicKummerRepresentation.lean -o /tmp/fca/.lake/build/lib/lean/CubicKummerRepresentation.olean -i /tmp/fca/.lake/build/lib/lean/CubicKummerRepresentation.ilean -c /tmp/fca/.lake/build/ir/CubicKummerRepresentation.c --setup /tmp/fca/.lake/build/ir/CubicKummerRepresentation.setup.json --json
+warning: CubicKummerRepresentation.lean:49:0: automatically included section variable(s) unused in theorem `CubicKummerRep.finrank_M`:
+info: CubicKummerRepresentation.lean:156:0: 'CubicKummerRep.finrank_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicKummerRepresentation.lean:157:0: 'CubicKummerRep.gal_comm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicKummerRepresentation.lean:158:0: 'CubicKummerRep.kummer' does not depend on any axioms
+- CubicKummerRepresentation
+⚠ [18256/18258] Built CubicKummerRepresentation (78s)
+warning: CubicKummerRepresentation.lean:49:0: automatically included section variable(s) unused in theorem `CubicKummerRep.finrank_M`:
+info: CubicKummerRepresentation.lean:157:0: 'CubicKummerRep.finrank_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicKummerRepresentation.lean:158:0: 'CubicKummerRep.gal_comm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicKummerRepresentation.lean:159:0: 'CubicKummerRep.kummer' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (18258 jobs).
+EXIT 0

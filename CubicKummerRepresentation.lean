@@ -94,6 +94,7 @@ theorem kummer : ∃ β : ℂ, β ∈ M K ∧ β ^ 3 ∈ F ∧ β ∉ F ∧ M K 
     lift_injective _ (by simp [K', F', lift_sup, lift_restrict, lift_top])
   have : IsGalois F' (M K) := IsGalois.sup_right K' F' hsup
   have hF' : finrank ℚ F' = 2 := by rw [← eF.toLinearEquiv.finrank_eq, finrank_F]
+  have : Module.Free F' (M K) := Module.Free.of_divisionRing _ _
   have hdeg : finrank F' (M K) = 3 := by
     have h := Module.finrank_mul_finrank ℚ F' (M K)
     rw [hF', finrank_M K hK] at h
