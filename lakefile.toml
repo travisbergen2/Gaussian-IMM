@@ -286,3 +286,6 @@ name = "CubicConjugationConstraint"
 
 [[lean_lib]]
 name = "CubicRadicandValuation"
+
+[[lean_lib]]
+name = "CubicJacobiPrimeMatching"
