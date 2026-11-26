@@ -1,0 +1,10 @@
+Lean v4.36.0, Mathlib fc4f59e5, cubic-kronecker-weber clone (all 92 libraries)
+info: CubicJacobiPrimeMatching.lean:224:0: 'CubicMatch.conjF_eq_σ' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicJacobiPrimeMatching.lean:225:0: 'CubicMatch.norm_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicJacobiPrimeMatching.lean:226:0: 'CubicMatch.split_of_not_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicJacobiPrimeMatching.lean:227:0: 'CubicMatch.kappa_J' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicJacobiPrimeMatching.lean:228:0: 'CubicMatch.assoc_jacobi' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicJacobiPrimeMatching.lean:229:0: 'CubicMatch.prime_cases' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CubicJacobiPrimeMatching.lean:230:0: 'CubicMatch.radicand_prime_cases' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (18525 jobs).
+EXIT 0
