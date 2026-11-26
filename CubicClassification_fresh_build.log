@@ -1,0 +1,31 @@
+Fresh clone of cubic-kronecker-weber at 9344d23, Lean v4.36.0, Mathlib fc4f59e5 (cache), all 98 libraries
+Build completed successfully (18543 jobs).
+EXIT 0
+verify.sh:
+ALL STAGES PASSED. Full output saved to verify_build.log.
+VEXIT 0
+
+Axiom audit (#print axioms):
+  'CubicKW.cubic_kronecker_weber' depends on axioms: [propext, Classical.choice, Quot.sound]
+  'CubicIntrinsic.intrinsic_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+  'CubicClass.hasPrimCubic_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+  'CubicBijection.classification' depends on axioms: [propext, Classical.choice, Quot.sound]
+  'CubicBijection.abstract_classification' depends on axioms: [propext, Classical.choice, Quot.sound]
+  'CubicBijection.zeta_KΨ' depends on axioms: [propext, Classical.choice, Quot.sound]
+  'CubicFixedField.zeta_K' depends on axioms: [propext, Classical.choice, Quot.sound]
+  'GaloisEmbedding.fieldRange_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+  'GaloisEmbedding.iso_iff_range_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+  'CondProd.conductor_mulLift' depends on axioms: [propext, Classical.choice, Quot.sound]
+  'CubicAssembly.hasPrimCubic_conductor' depends on axioms: [propext, Classical.choice, Quot.sound]
+  'CubicKummerRep.kummer' depends on axioms: [propext, Classical.choice, Quot.sound]
+  'CubicConj.conj_constraint' depends on axioms: [propext, Classical.choice, Quot.sound]
+  'CubicVal.val_constraint' depends on axioms: [propext, Classical.choice, Quot.sound]
+  'CubicVal.radicand_valuations' depends on axioms: [propext, Classical.choice, Quot.sound]
+  'CubicMatch.split_of_not_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+  'CubicMatch.prime_cases' depends on axioms: [propext, Classical.choice, Quot.sound]
+  'CubicRecon.reconstruct' depends on axioms: [propext, Classical.choice, Quot.sound]
+  'CubicRecon.radicand_cube_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+  'CubicIntrinsic.compat' depends on axioms: [propext, Classical.choice, Quot.sound]
+  'CubicGauss.gaussSum_cube_zmod' depends on axioms: [propext, Classical.choice, Quot.sound]
+  'EisJacobi.J_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+  'EisJacobi.J_mul_conj' depends on axioms: [propext, Classical.choice, Quot.sound]
